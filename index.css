@@ -1,0 +1,14 @@
+.indicators{
+background: url("https://rpo.wrotapodlasia.pl/resource/image/236/333/10791/16322/0x0.jpg");
+height: 600px;
+margin-left: 15px;
+margin-right:15px;
+}
+.indicator-box{
+
+border: 1px solid white;
+float: left;
+margin: 30px;
+padding: 15px;
+color: white;
+}
