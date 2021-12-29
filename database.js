@@ -15,12 +15,47 @@ var project1 = {
             "type": "Point",
             "coordinates": [23.15003, 53.10611]
             }
-    
-
         
 };
 
+var project2 = {
+    
+    "type": "Feature",
+    "properties": {
+        "title": "Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach",
+        "beneficiary": "Miasto Suwałki",
+        "sphere": "8",
+        "description": "BBudynek miejskiej łaźni w Suwałkach zbudowany został w latach trzydziestych ubiegłego wieku, ale przetrwał tylko do lat siedemdziesiątych. Później zabytkowy budynek zaczął popadać w ruinę. Teren dookoła budynku przez dziesięciolecia był terenem niewykorzystywanym, zapomnianym, który porastały chaszcze i krzaki.</p><p>Budynek Starej Łaźni został zbudowany praktycznie od nowa. Pozostawiono tylko trzy zabytkowe ściany zewnętrzne, a dzięki rozbudowie i nadbudowie budynek ma teraz prawie dwa razy większą kubaturę niż pierwotnie. Jest to teraz obiekt użyteczności publicznej z przestrzenią wystawienniczą przeznaczoną na galerię oraz na potrzeby kultury i sportu. Znalazło się też tu miejsce na punkt gastronomiczny oraz na wypożyczalnię sprzętu sportowego.</p><p>Nowa placówka i przestrzeń dookoła niej stały się miejscem spotkań z kulturą, koncertów plenerowych, wydarzeń ekologicznych i oświatowych, zawodów rekreacyjnych i sportowych.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10794/16347/0x0.jpg",
+        "pictureAlt": "Wystawa w budynku Starej Łaźni",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html",
+        },
 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.92551, 54.09664]
+        }
+    
+};
+var project3 = {
+    
+    "type": "Feature",
+    "properties": {
+        "title": "Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach",
+        "beneficiary": "Miasto Suwałki",
+        "sphere": "8",
+        "description": "W ramach realizacji projektu zagospodarowane zostały tereny nad rzeką Czarna Hańcza, sąsiadujące ze zrewitalizowaną Starą Łaźnią. Wykonano chodniki, ścieżki rowerowe, liczne nasadzenia zieleni (trawniki, łąki kwietne) z elementami małej architektury, a także oświetlenie z iluminacją oraz liniami zasilającymi. Prace dotyczyły też wyregulowania brzegu rzeki wraz z umocnieniem podstawy skarp, budową nabrzeża rekreacyjnego, slipu dla kajaków oraz kładki dla pieszych i rowerzystów.</p><p>Stara Łaźnia i przestrzeń dookoła niej stały się miejscem spotkań z kulturą, koncertów plenerowych, wydarzeń ekologicznych i oświatowych, zawodów rekreacyjnych i sportowych.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10794/16351/0x0.jpg",
+        "pictureAlt": "Bulwary nad rzeką Czarna Hańcza",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.92402, 54.09662]
+        }
+    
+};
 
 var hajnowkaCity = {
     "type": "FeatureCollection",

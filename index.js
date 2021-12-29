@@ -92,7 +92,7 @@ function onEachFeature(feature, layer) {
 
 };
 
-function displayCommune(unit) {
+function displayProject(unit) {
     L.geoJSON(unit, {
         style: function (feature) {
           if (feature.properties.PRtype){
@@ -154,7 +154,7 @@ info.update = function (props) {
 
         } else if(props.picture){
             this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent: ' + props.beneficiary + '</p></div><p>'
-            + props.description +'</p><div><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
+            + props.description +'</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie">Dowiedz sie więcej o projekcie </a></p><div><img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </div>';
         } else {
             this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent: ' + props.beneficiary + '</p></div><p>' + props.description +'</p></div>';
         }
@@ -180,4 +180,6 @@ legend.onAdd = function (map) {
 legend.addTo(map);
 */
 
-displayCommune(project1);
+displayProject(project1);
+displayProject(project2);
+displayProject(project3);
