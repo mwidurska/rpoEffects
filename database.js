@@ -5,13 +5,15 @@ var project1 = {
             "title": "Laboratorium Młodego Mistrza i Odkrywcy w Białymstoku",
             "beneficiary": "Miasto Białystok",
             "sphere": "8",
-            "description": "W ramach projektu zmodernizowano piece w 37 prywatnych budynkach mieszkalnych, wymieniono 2011 punktów oświetlenia ulicznego na energooszczędne, a także zakupiono stację do pomiaru czystości powietrza.</p><p>Aktualny stan jakości powietrza mieszkańcy mogą sprawdzić na stronie internetowej miasta.",
-             
+            "description": "Epi-Centrum Nauki to wyjątkowe i pasjonujące miejsce, w którym nauka spotyka się z zabawą. Tutaj nuda nie istnieje. Centrum zostało zaprojektowane tak, aby każdy mógł znaleźć coś dla siebie, bez względu na wiek.</p><p>Epi-Centrum składa się z 2 odrębnych stref. Pierwsza z nich to Strefa Małego Odkrywcy – przestrzeń edukacyjna dla najmłodszych. Na zwiedzających czekają przewodnicy – Zmysłek i Majka Pytajka, którzy pomagają dzieciom odkrywać fascynujący świat nauki. Co ważne, wszystkie doświadczenia i zabawy dostosowane są do możliwości dziecięcego spostrzegania, co pozwala im na niczym nieskrępowane poznawanie nauki.</p><p>Druga strefa to Wystawa Główna. To miejsce skierowane do osób w każdym wieku. Na jej terenie znajduje się prawie 100 stanowisk doświadczalnych.",
+            "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16269/0x0.jpg",
+            "pictureAlt": "Kolorowe Stadion Kolorowe i atrakcyjne stanowiska do nauki poprzez zabawę",
+            "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/laboratorium-mlodego-mistrza-i-odkrywcy-w-bialymstoku.html",
             },
     
         "geometry": {
             "type": "Point",
-            "coordinates": [23.5894431, 52.7374633]
+            "coordinates": [23.15003, 53.10611]
             }
     
 

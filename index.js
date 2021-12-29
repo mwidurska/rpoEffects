@@ -153,11 +153,10 @@ info.update = function (props) {
             + props.PRLegalBasis + '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
         } else if(props.picture){
-            this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent :' + props.beneficiary + '</p></div><p>'
-            props.description +'</p><div><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
+            this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent: ' + props.beneficiary + '</p></div><p>'
+            + props.description +'</p><div><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
         } else {
-            this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent :' + props.beneficiary + '</p></div><p>' + props.description +
-            '</p></div>';
+            this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent: ' + props.beneficiary + '</p></div><p>' + props.description +'</p></div>';
         }
 
     } else {
