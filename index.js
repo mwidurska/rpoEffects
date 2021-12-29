@@ -8,18 +8,26 @@ var map = L.map('rev_map', {
     layers: [base]
 });
 
-var socialLayer = L.geoJSON().addTo(map),
-    environmentalLayer = L.geoJSON().addTo(map),
-    economicLayer = L.geoJSON().addTo(map),
-    spatialLayer = L.geoJSON().addTo(map),
-    technicalLayer = L.geoJSON().addTo(map);
+var Layer1 = L.geoJSON().addTo(map),
+    Layer2 = L.geoJSON().addTo(map),
+    Layer3 = L.geoJSON().addTo(map),
+    Layer4 = L.geoJSON().addTo(map),
+    Layer5 = L.geoJSON().addTo(map),
+    Layer6 = L.geoJSON().addTo(map),
+    Layer7 = L.geoJSON().addTo(map),
+    Layer8 = L.geoJSON().addTo(map),
+    Layer9 = L.geoJSON().addTo(map);
 
 var overlayMaps = {
-    "Sfera społeczna": socialLayer,
-    "Sfera środowiskowa": environmentalLayer,
-    "Sfera gospodarcza": economicLayer,
-    "Sfera przestrzenno-funkcjonalna": spatialLayer,
-    "Sfera techniczna": technicalLayer,
+    "Przedsiębiorczość": Layer1,
+    "Aktywność zawodowa": Layer2,
+    "Edukacja": Layer3,
+    "Transport": Layer4,
+    "Gospodarka niskoemisyjna": Layer5,
+    "Ochrona środowiska": Layer6,
+    "Aktywność społeczna": Layer7,
+    "Miejsca użyteczności publicznej": Layer8,
+    "Rozwój lokalny": Layer9,
 };
 var layersControl = L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map);
 
@@ -39,6 +47,8 @@ var socialIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/
     economicIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/199/0x0.png' }),
     spatialIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/179/0x0.png' }),
     technicalIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/203/0x0.png' });
+
+    
 
 function zoomToFeature(e) {
 
@@ -69,11 +79,15 @@ function onEachFeature(feature, layer) {
         click: zoomToFeature,
     });
     switch (feature.properties.sphere) {
-        case 'social': return socialLayer.addLayer(layer);
-        case 'environmental': return environmentalLayer.addLayer(layer);
-        case 'economic': return economiclLayer.addLayer(layer);
-        case 'spatial': return spatialLayer.addLayer(layer);
-        case 'technical': return technicalLayer.addLayer(layer);
+        case '1': return Layer1.addLayer(layer);
+        case '2': return Layer2.addLayer(layer);
+        case '3': return Layer3.addLayer(layer);
+        case '4': return Layer4.addLayer(layer);
+        case '5': return Layer5.addLayer(layer);
+        case '6': return Layer6.addLayer(layer);
+        case '7': return Layer7.addLayer(layer);
+        case '8': return Layer8.addLayer(layer);
+        case '9': return Layer9.addLayer(layer);
     };
 
 };
@@ -88,21 +102,29 @@ function displayCommune(unit) {
             }
              } else if (feature.properties.sphere){
              switch (feature.properties.sphere) {
-                case 'social': return { color: "#4caef9" };
-                case 'environmental': return { color: "#65e2ac" };
-                case 'economic': return { color: "#3b5792" };
-                case 'spatial': return { color: "#ffd568" };
-                case 'technical': return { color: "#ed896a" };
+                case '1': return { color: "#2E3192" };
+                case '2': return { color: "#F26522" };
+                case '3': return { color: "#007338" };
+                case '4': return { color: "#812990" };
+                case '5': return { color: "#FFCB08" };
+                case '6': return { color: "#93AE25" };
+                case '7': return { color: "#007EC4" };
+                case '8': return { color: "#ED1C24" };
+                case '9': return { color: "#C6168D" };
            }
              }
         },
         pointToLayer: function (feature, latlng) {
             switch (feature.properties.sphere) {
-                case 'social': return L.marker(latlng, { icon: socialIcon });
-                case 'environmental': return L.marker(latlng, { icon: environmentIcon });
-                case 'economic': return L.marker(latlng, { icon: economicIcon });
-                case 'spatial': return L.marker(latlng, { icon: spatialIcon });
-                case 'technical': return L.marker(latlng, { icon: technicalIcon });
+                case '1': return L.marker(latlng, { icon: socialIcon });
+                case '2': return L.marker(latlng, { icon: environmentIcon });
+                case '3': return L.marker(latlng, { icon: economicIcon });
+                case '4': return L.marker(latlng, { icon: spatialIcon });
+                case '5': return L.marker(latlng, { icon: technicalIcon });
+                case '6': return L.marker(latlng, { icon: environmentIcon });
+                case '7': return L.marker(latlng, { icon: economicIcon });
+                case '8': return L.marker(latlng, { icon: spatialIcon });
+                case '9': return L.marker(latlng, { icon: technicalIcon });
             }
         },
         onEachFeature: onEachFeature
@@ -131,20 +153,20 @@ info.update = function (props) {
             + props.PRLegalBasis + '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
         } else if(props.picture){
-            this._div.innerHTML = '<div class="sphere '+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + 
+            this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '">' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + 
             props.description +'</p><div><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
         } else {
-            this._div.innerHTML = '<div class="sphere '+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
+            this._div.innerHTML = '<div class="sphere axis'+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
             '</p></div>';
         }
 
     } else {
-        this._div.innerHTML = '<b>Kliknij na wybrany projekt lub obszar gminy, by dowiedzieć się więcej.</b>';
+        this._div.innerHTML = '<b>Poznaj najciekawsze projekty dofinansowane z Regionalnego Programu Operacyjnego Województwa Podlaskiego na lata 2014-2020</b>';
     }
 };
 
 info.addTo(map);
-
+/*
 var legend = L.control({ position: 'bottomright' });
 
 legend.onAdd = function (map) {
@@ -157,5 +179,6 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+*/
 
-displayCommune(augustowCity);
+displayCommune(project1);

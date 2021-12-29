@@ -12,3 +12,100 @@ margin: 30px;
 padding: 15px;
 color: white;
 }
+
+.map {
+    height: 80vh;
+}
+
+.mapTitle{
+    background: #404041;
+    
+}
+.mapTitle h1{
+    color: #ffa800;
+    margin: 0;
+    line-height: 40px;
+    padding: 13px 10px 18px;
+    font: 22px/24px "Open Sans Light",Arial,Helvetica,sans-serif;
+}
+
+.info {
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 20vw;
+}
+
+.legend {
+    line-height: 18px;
+    color: #000000;
+    max-width: 80px;
+}
+.legend i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.leaflet-control-layers {
+    display: inline-block;
+    float: none;
+}
+
+.projectImg {
+    width: 100%;
+
+}
+.sphere {
+    margin: -6px -8px 6px -8px;
+    padding: 6px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.leaflet-control h2 {
+    color: #000000;
+    font: 16px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.leaflet-control p {
+    color: #000000;
+    font: 12px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.axis1 {
+    background-color: #2E3192;
+}
+
+.axis2 {
+    background-color: #F26522;
+}
+
+.axis3 {
+    background-color: #007338;
+}
+
+.axis4 {
+    background-color: #812990;
+}
+
+.axis5 {
+    background-color: #FFCB08;
+}
+
+.axis6 {
+    background-color: #93AE25;
+}
+
+.axis7 {
+    background-color: #007EC4;
+}
+
+.axis8 {
+    background-color: #ED1C24;
+}
+
+.axis9 {
+    background-color: #C6168D;
+}
