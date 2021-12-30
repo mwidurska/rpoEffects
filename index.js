@@ -183,3 +183,4 @@ legend.addTo(map);
 displayProject(project1);
 displayProject(project2);
 displayProject(project3);
+displayProject(project4);
