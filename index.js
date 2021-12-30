@@ -184,3 +184,5 @@ displayProject(project1);
 displayProject(project2);
 displayProject(project3);
 displayProject(project4);
+displayProject(project5);
+displayProject(project6);
