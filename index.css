@@ -182,6 +182,5 @@ width:100%;
 }
 
 .rotated {
-  background-color: transparent;
   transform: rotate(90deg);
 }
