@@ -107,6 +107,50 @@ var project5 = {
         }
     
 };
+var project6 = {
+    
+    "type": "Feature",
+    "properties": {
+        "title": "Poprawa sytuacji epidemiologicznej w związku z zagrożeniem spowodowanym przez koronawirus SARS-CoV-2 na terenie województwa podlaskiego",
+        "beneficiary": "Województwo Podlaskie",
+        "sphere": "8",
+        "description": "Projekt dotyczy wsparcia instytucji ochrony zdrowia w walce z pandemią COVID-19. 14 jednostek w regionie: szpitale, stacje pogotowia ratunkowego oraz Wojewódzka Stacja Sanitarno-Epidemiologiczna otrzymało wsparcie, jakiego oczekiwało w tym trudnym czasie.</p><p>Zakres zakupów medycznych był bardzo szeroki: od testów i środków do dezynfekcji, po respiratory, kardiomonitory, defibrylatory, specjalistyczne łóżka i ambulanse. Dzięki dotacji szpitale mogły wykonać również niezbędne prace remontowe, przygotowujące do leczenia zakażonych, jak przebudowy szpitalnych oddziałów ratunkowych czy sterylizatornii.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/11205/16858/0x0.jpg",
+        "pictureAlt": "Na pierwszym planie defibrylatory, w tle karetki",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/srodki-na-walke-z-pandemia.html",
+        },
+
+    "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                    "type": "Point",
+                    "coordinates": [22.92522, 54.09826]
+                    },
+                    {
+                    "type": "Point",
+                    "coordinates": [23.14428, 53.13769]
+                    },
+			{
+                    "type": "Point",
+                    "coordinates": [23.20337, 53.75942]
+                    },
+			{
+                    "type": "Point",
+                    "coordinates": [22.06666, 53.15713]
+                    },
+			{
+                    "type": "Point",
+                    "coordinates": [22.08093, 53.17362]
+                    },
+			{
+                    "type": "Point",
+                    "coordinates": [23.15597, 53.12361]
+                    },
+                    ]
+                }
+    
+};
 
 var hajnowkaCity = {
     "type": "FeatureCollection",
