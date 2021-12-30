@@ -42,11 +42,15 @@ var RevIcon = L.Icon.extend({
     }
 });
 
-var socialIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/200/0x0.png' }),
-    environmentIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/176/0x0.png' }),
-    economicIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/199/0x0.png' }),
-    spatialIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/179/0x0.png' }),
-    technicalIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/203/0x0.png' });
+var icon1 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17503/0x0.png' }),
+    icon2 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17502/0x0.png' }),
+    icon3 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17504/0x0.png' }),
+    icon4 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17505/0x0.png' }),
+    icon5 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17506/0x0.png' });
+    icon6 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17507/0x0.png' });
+    icon7 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17508/0x0.png' });
+    icon8 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17509/0x0.png' });
+    icon9 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17510/0x0.png' });
 
     
 
@@ -116,15 +120,15 @@ function displayProject(unit) {
         },
         pointToLayer: function (feature, latlng) {
             switch (feature.properties.sphere) {
-                case '1': return L.marker(latlng, { icon: socialIcon });
-                case '2': return L.marker(latlng, { icon: environmentIcon });
-                case '3': return L.marker(latlng, { icon: economicIcon });
-                case '4': return L.marker(latlng, { icon: spatialIcon });
-                case '5': return L.marker(latlng, { icon: technicalIcon });
-                case '6': return L.marker(latlng, { icon: environmentIcon });
-                case '7': return L.marker(latlng, { icon: economicIcon });
-                case '8': return L.marker(latlng, { icon: spatialIcon });
-                case '9': return L.marker(latlng, { icon: technicalIcon });
+                case '1': return L.marker(latlng, { icon: icon1 });
+                case '2': return L.marker(latlng, { icon: icon2 });
+                case '3': return L.marker(latlng, { icon: icon3 });
+                case '4': return L.marker(latlng, { icon: icon4 });
+                case '5': return L.marker(latlng, { icon: icon5 });
+                case '6': return L.marker(latlng, { icon: icon6 });
+                case '7': return L.marker(latlng, { icon: icon7 });
+                case '8': return L.marker(latlng, { icon: icon8 });
+                case '9': return L.marker(latlng, { icon: icon9 });
             }
         },
         onEachFeature: onEachFeature
