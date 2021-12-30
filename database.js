@@ -57,6 +57,26 @@ var project3 = {
     
 };
 
+var project4 = {
+    
+    "type": "Feature",
+    "properties": {
+        "title": "Budowa bulwarów choroszczańskich",
+        "beneficiary": "Gmina Choroszcz",
+        "sphere": "8",
+        "description": "Dnia 17 września 2020 roku miało miejsce uroczyste otwarcie Bulwarów przy ul. Henryka Sienkiewicza w Choroszczy. Dzięki realizacji projektu teren wcześniej niezagospodarowany i zdegradowany przekształcony został w nowoczesną i kolorową promenadę oferującą cały szereg atrakcji.</p><p>Znalazła się tu ciekawa infrastruktura sportowa, na którą składa się siłownia zewnętrzna oraz bogato wyposażony skate park. Niewątpliwą atrakcją, szczególnie dla najmłodszych, jest nowoczesny i bezpieczny plac zabaw. Najbardziej innowacyjnym elementem obiektu jest tężnia solankowa, przy której można spocząć na ławeczkach i pooddychać pełnym prozdrowotnych właściwości powietrzem. Całość obiektu ma nową zróżnicowaną nawierzchnię, a okala ją sieć chodników, ścieżek rowerowych oraz wygodne parkingi. Dodatkowo jest tu dużo zieleni. W ramach projektu zrealizowane zostało też przyłącze i instalacja kanalizacji deszczowej oraz wodociągowej.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10791/16322/0x0.jpg",
+        "pictureAlt": "Tężnia solankowa",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/budowa-bulwarow-choroszczanskich.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.92402, 54.09662]
+        }
+    
+};
+
 var hajnowkaCity = {
     "type": "FeatureCollection",
     "features": [
