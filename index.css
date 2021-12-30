@@ -1,111 +1,120 @@
-.axes{
-background-color: black;
-overflow: hidden;
-position: relative;
-height: 600px;
-margin-left: 15px;
-margin-right: 15px;
-margin-bottom: 15px;
-padding-left: 10px;
-padding-right: 10px;
+.axes {
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.axes-background{
-opacity: 0.6;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-}
-
-.axes-box{
-height: 160px;
-width:100%;
-border: 1px solid white;
-float: left;
-margin-top: 30px;
-padding: 20px;
-color: white;
-box-sizing: border-box;
-position: relative;
+.axes-background {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
 }
 
-.h2{
-margin: 0 0 5px;
-font-size: 36px;
-line-height: 40px;
-font-weight: 600;
+.axes-box {
+    height: 160px;
+    width: 100%;
+    border: 1px solid white;
+    float: left;
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+    position: relative;
 }
-.h3{
-margin: 0 0 5px;
-font-size: 30px;
-line-height: 24px;
-font-weight: 600;
+
+.h2 {
+    margin: 0 0 5px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
 }
-.h4{
-margin: 30px 0 30px;
-font-size: 18px;
-font-weight: 400;
-text-align: center;
+.h3 {
+    margin: 0 0 5px;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 600;
 }
-.span{
-font-size: 20px;
-font-weight: 300;
+.h4 {
+    margin: 30px 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 }
-.axis1:hover{
-background-color: #2E3192;
-
+.span {
+    font-size: 20px;
+    font-weight: 300;
 }
-.axis2:hover{
-background-color:#F26522}
-
-.axis3:hover{
-background-color:#007338}
-
-.axis4:hover{
-background-color:#812990}
-
-.axis5:hover{
-background-color:#FFCB08}
-
-.axis6:hover{
-background-color:#93AE25}
-
-.axis7:hover{
-background-color:#007EC4}
-
-.axis8:hover{
-background-color:#ED1C24}
-
-.axis9:hover{
-background-color:#C6168D}
-
-.axes-box:hover .indicator{
-display: none
+.axis1:hover {
+    background-color: #2e3192;
 }
-.summary{
-display: none
+.axis2:hover {
+    background-color: #f26522;
+}
+
+.axis3:hover {
+    background-color: #007338;
+}
+
+.axis4:hover {
+    background-color: #812990;
+}
+
+.axis5:hover {
+    background-color: #ffcb08;
+}
+
+.axis6:hover {
+    background-color: #93ae25;
+}
+
+.axis7:hover {
+    background-color: #007ec4;
+}
+
+.axis8:hover {
+    background-color: #ed1c24;
+}
+
+.axis9:hover {
+    background-color: #c6168d;
+}
+
+.axes-box:hover .indicator {
+    display: none;
+}
+.summary {
+    display: none;
 }
 .axes-box:hover .summary {
-display: block;
-color: white;}
-
-.map-container{
-height: 80vh;
-margin-left: 15px;
-margin-right: 15px;
+    display: block;
+    color: white;
 }
-.map{
-width:100%;
+
+.map-container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.map {
+    width: 100%;
+    height: 80vh;
 }
 
 .info {
     padding: 6px 8px;
     background: white;
-    background: rgba(255, 255, 255, 1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 20vw;
+    max-height: 80vh;
+    overflow-y: scroll;
 }
 
 .legend {
@@ -128,29 +137,38 @@ width:100%;
 
 .projectImg {
     width: 100%;
-
 }
 .sphere {
     margin: -6px -8px 6px -8px;
     padding: 6px 8px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    color:white;
+    color: white;
 }
-/* .leaflet-control h2 {
-    color: #000000;
-    font: 16px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
+
+/*
+        .leaflet-control h2 {
+            color: #000000;
+            font: 16px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }*/
+
 .leaflet-control p {
-    color: #000000;
-    font: 12px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
-} */
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+.leaflet-control h3 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .map-axis1 {
-    background-color: #2E3192;
+    background-color: #2e3192;
 }
 
 .map-axis2 {
-    background-color: #F26522;
+    background-color: #f26522;
 }
 
 .map-axis3 {
@@ -162,25 +180,21 @@ width:100%;
 }
 
 .map-axis5 {
-    background-color: #FFCB08;
+    background-color: #ffcb08;
 }
 
 .map-axis6 {
-    background-color: #93AE25;
+    background-color: #93ae25;
 }
 
 .map-axis7 {
-    background-color: #007EC4;
+    background-color: #007ec4;
 }
 
 .map-axis8 {
-    background-color: #ED1C24;
+    background-color: #ed1c24;
 }
 
 .map-axis9 {
-    background-color: #C6168D;
-}
-
-.rotated {
-  transform: rotate(90deg);
+    background-color: #c6168d;
 }

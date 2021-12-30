@@ -39,7 +39,6 @@ var RevIcon = L.Icon.extend({
         iconSize: [65, 65],
         iconAnchor: [30, 65],
         popupAnchor: [-3, -76],
-        className: 'rotated',
     }
 });
 
@@ -154,7 +153,7 @@ info.update = function (props) {
             + props.PRLegalBasis + '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
         } else if(props.picture){
-            this._div.innerHTML = '<div class="sphere map-axis'+ props.sphere + '"><h3>Tytuł projektu: ' + props.title + '</b></h3><p><b>Beneficjent: ' + props.beneficiary + '</b></p></div><p>'
+            this._div.innerHTML = '<div class="sphere map-axis'+ props.sphere + '"><h3>Tytuł projektu: ' + props.title + '</b></h3><p>Beneficjent: ' + props.beneficiary + '</p></div><p>'
             + props.description +'</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie">Dowiedz sie więcej o projekcie </a></p><div><img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </div>';
         } else {
             this._div.innerHTML = '<div class="sphere map-axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent: ' + props.beneficiary + '</p></div><p>' + props.description +'</p></div>';
