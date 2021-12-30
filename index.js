@@ -38,7 +38,8 @@ var RevIcon = L.Icon.extend({
     options: {
         iconSize: [65, 65],
         iconAnchor: [30, 65],
-        popupAnchor: [-3, -76]
+        popupAnchor: [-3, -76],
+        className: 'rotated',
     }
 });
 
