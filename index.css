@@ -180,3 +180,8 @@ width:100%;
 .map-axis9 {
     background-color: #C6168D;
 }
+
+.rotated {
+  background-color: transparent;
+  transform: rotate(90deg);
+}
