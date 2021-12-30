@@ -88,6 +88,25 @@ var project4 = {
                 }
     
 };
+var project5 = {
+    
+    "type": "Feature",
+    "properties": {
+        "title": "Rozwój zaplecza badawczo – rozwojowego firmy ChM celem prowadzenia prac B+R nad innowacyjnym systemem przeznaczonym do endoprotezoplastyki stawu biodrowego między innymi z uzupełnieniem onkologicznym",
+        "beneficiary": "ChM Sp. z o.o.",
+        "sphere": "1",
+        "description": "Dzięki dofinansowaniu firma ChM wyposażyła zaplecze badawczo-rozwojowe, które zostało wybudowane w ramach innego projektu dofinansowanego z Funduszy Europejskich w ramach PO Inteligentny Rozwój. Zakupiona aparatura badawczo-rozwojowa pozwoli na przeprowadzenie badań nad produkcją systemu endoprotez stawu biodrowego stosowanych w trudnych, onkologicznych, przypadkach, gdzie są bardzo duże ubytki kostne w obszarze zarówno miednicy i stawu biodrowego, a zastosowanie standardowych endoprotez nie byłoby możliwe.</p><p>Wyprodukowane implanty przejdą następnie specjalistyczne testy biomechaniczne, mechaniczne i biologiczne mające potwierdzić kliniczne bezpieczeństwo nowych produktów. Firma opracuje też specjalny system pakowania poszczególnych elementów endoprotez stawu biodrowego.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/9625/15023/0x0.jpg",
+        "pictureAlt": "Elementy implantów produkowane przez ChM",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/centrum-badawczo-rozwojowe-firmy-chm.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.13953, 53.04486]
+        }
+    
+};
 
 var hajnowkaCity = {
     "type": "FeatureCollection",
