@@ -1,0 +1,8 @@
+{
+  "packageManager": "github",
+  "name": "mwidurska",
+  "repo": "mwidurska/rpoEffects",
+  "files": {
+    "include": ["index.js", "database.js", "index.css"]
+  }
+}
