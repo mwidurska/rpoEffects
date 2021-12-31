@@ -28,6 +28,7 @@
     color: white;
     box-sizing: border-box;
     position: relative;
+    transition: 0.5s;
 }
 
 .h2 {
@@ -36,17 +37,18 @@
     line-height: 40px;
     font-weight: 600;
 }
-.h3 {
-    margin: 0 0 5px;
-    font-size: 30px;
-    line-height: 24px;
-    font-weight: 600;
+.h3{
+margin: 25px 0 5px;
+font-size: 28px;
+line-height: 24px;
+font-weight: 600;
 }
-.h4 {
-    margin: 30px 0 30px;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
+.h4{
+margin: 25px 0 30px;
+font-size: 20px;
+line-height: 26px;
+font-weight: 400;
+text-align: center;
 }
 .span {
     font-size: 20px;
