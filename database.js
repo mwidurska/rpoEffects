@@ -202,3 +202,54 @@ var project9 = {
         "coordinates": [22.0482, 53.1279]
         }
 };
+var project10 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Elektrownia fotowoltaiczna MARAND-KOBYLIN',
+        "beneficiary": "Marand A. Półkośnik i Wspólnicy S.A.",
+        "sphere": "5",
+        "description": "Projekt polegał na uruchomieniu instalacji fotowoltaicznej o mocy 0,4 MW przez firmę MARAND A. Półkośnik i Wspólnicy. Inwestycja jest zlokalizowana w gminie Kobylin Borzymy. W ramach projektu zamontowano ogniwa PV, wykonano przyłącza elektroenergetyczne. Inwestycja została ogrodzona, a teren uporządkowany i zabezpieczony.</p><p>Produkowana tu energia będzie sprzedawana. Taka produkcja wpłynie na spadek emisji gazów cieplarnianych zwiększenie wytwarzania energii z odnawialnych źródeł energii.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg",
+        "pictureAlt": "Zbliżenie na panele fotowoltaiczne",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/elektrownia-fotowoltaiczna-marand-kobylin.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.7153, 53.1203]
+        }
+};
+var project11 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Elektrownia fotowoltaiczna MARAND-KOBYLIN',
+        "beneficiary": "Marand A. Półkośnik i Wspólnicy S.A.",
+        "sphere": "5",
+        "description": "Projekt polegał na uruchomieniu instalacji fotowoltaicznej o mocy 0,4 MW przez firmę MARAND A. Półkośnik i Wspólnicy. Inwestycja jest zlokalizowana w gminie Kobylin Borzymy. W ramach projektu zamontowano ogniwa PV, wykonano przyłącza elektroenergetyczne. Inwestycja została ogrodzona, a teren uporządkowany i zabezpieczony.</p><p>Produkowana tu energia będzie sprzedawana. Taka produkcja wpłynie na spadek emisji gazów cieplarnianych zwiększenie wytwarzania energii z odnawialnych źródeł energii.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg",
+        "pictureAlt": "Zbliżenie na panele fotowoltaiczne",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/elektrownia-fotowoltaiczna-marand-kobylin.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.7153, 53.1203]
+        }
+};
+var project12 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Elektrownia fotowoltaiczna MARAND-KOBYLIN',
+        "beneficiary": "Marand A. Półkośnik i Wspólnicy S.A.",
+        "sphere": "5",
+        "description": "Projekt polegał na uruchomieniu instalacji fotowoltaicznej o mocy 0,4 MW przez firmę MARAND A. Półkośnik i Wspólnicy. Inwestycja jest zlokalizowana w gminie Kobylin Borzymy. W ramach projektu zamontowano ogniwa PV, wykonano przyłącza elektroenergetyczne. Inwestycja została ogrodzona, a teren uporządkowany i zabezpieczony.</p><p>Produkowana tu energia będzie sprzedawana. Taka produkcja wpłynie na spadek emisji gazów cieplarnianych zwiększenie wytwarzania energii z odnawialnych źródeł energii.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg",
+        "pictureAlt": "Zbliżenie na panele fotowoltaiczne",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/elektrownia-fotowoltaiczna-marand-kobylin.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.7153, 53.1203]
+        }
+};
