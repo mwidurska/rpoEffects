@@ -199,6 +199,6 @@ var project9 = {
 
     "geometry": {
         "type": "Point",
-        "coordinates": [23.13662, 53.11791]
+        "coordinates": [22.0482, 53.1279]
         }
 };
