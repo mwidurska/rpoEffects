@@ -222,34 +222,34 @@ var project10 = {
 var project11 = {
     "type": "Feature",
     "properties": {
-        "title": 'Elektrownia fotowoltaiczna MARAND-KOBYLIN',
-        "beneficiary": "Marand A. Półkośnik i Wspólnicy S.A.",
-        "sphere": "5",
-        "description": "Projekt polegał na uruchomieniu instalacji fotowoltaicznej o mocy 0,4 MW przez firmę MARAND A. Półkośnik i Wspólnicy. Inwestycja jest zlokalizowana w gminie Kobylin Borzymy. W ramach projektu zamontowano ogniwa PV, wykonano przyłącza elektroenergetyczne. Inwestycja została ogrodzona, a teren uporządkowany i zabezpieczony.</p><p>Produkowana tu energia będzie sprzedawana. Taka produkcja wpłynie na spadek emisji gazów cieplarnianych zwiększenie wytwarzania energii z odnawialnych źródeł energii.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg",
-        "pictureAlt": "Zbliżenie na panele fotowoltaiczne",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/elektrownia-fotowoltaiczna-marand-kobylin.html",
+        "title": 'Modernizacja i rozbudowa oczyszczalni ścieków w Rajgrodzie oraz budowa rozdzielczej sieci wodociągowej w Rajgrodzie',
+        "beneficiary": "Gmina Rajgród",
+        "sphere": "6",
+        "description": "W ramach projektu wybudowano komunalną oczyszczalnię ścieków oraz wodociąg o długości 2,26 km. W stosunku do poprzedniej, nowa oczyszczalnia jest w stanie przyjąć podwójną ilość ścieków. Dzięki temu z infrastruktury ściekowej będzie mogło dodatkowo skorzystać prawie 1,3 tys. mieszkańców. Natomiast z zaopatrzenia w wodę skorzysta dodatkowo 345 osób.</p><p>Wybudowana w ramach projektu oczyszczalnia jest nowoczesnym obiektem. Zastosowano w nim technologię, która zwiększa jego odporność na zakłócenia oraz pozwala zmniejszyć wielkość bloku biologicznego. Dodatkowo (choć zgodnie z przepisami nie musi tego robić) oczyszczalnia będzie usuwać związki azotu i fosforu. Co ważne, te dodatkowe funkcje nie spowodowały konieczności powiększenia zbiornika oczyszczalni i nie zwiększyły znacząco kosztów inwestycji.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8240/13109/0x0.jpg",
+        "pictureAlt": "Mężczyzna steruje maszyną w oczyszczalni ścieków",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/modernizacja-i-rozbudowa-oczyszczalni-sciekow-w-rajgrodzie.html",
         },
 
     "geometry": {
         "type": "Point",
-        "coordinates": [22.7153, 53.1203]
+        "coordinates": [22.6975, 53.7303]
         }
 };
 var project12 = {
     "type": "Feature",
     "properties": {
-        "title": 'Elektrownia fotowoltaiczna MARAND-KOBYLIN',
-        "beneficiary": "Marand A. Półkośnik i Wspólnicy S.A.",
-        "sphere": "5",
-        "description": "Projekt polegał na uruchomieniu instalacji fotowoltaicznej o mocy 0,4 MW przez firmę MARAND A. Półkośnik i Wspólnicy. Inwestycja jest zlokalizowana w gminie Kobylin Borzymy. W ramach projektu zamontowano ogniwa PV, wykonano przyłącza elektroenergetyczne. Inwestycja została ogrodzona, a teren uporządkowany i zabezpieczony.</p><p>Produkowana tu energia będzie sprzedawana. Taka produkcja wpłynie na spadek emisji gazów cieplarnianych zwiększenie wytwarzania energii z odnawialnych źródeł energii.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg",
-        "pictureAlt": "Zbliżenie na panele fotowoltaiczne",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/elektrownia-fotowoltaiczna-marand-kobylin.html",
+        "title": 'Aktywizacja od A do ZAZ',
+        "beneficiary": "Towarzystwo Wspierania Inicjatyw Społecznych ALPI",
+        "sphere": "7",
+        "description": "20 marca 2019 r. miało miejsce oficjalne otwarcie Zakładu Aktywności Zawodowej (ZAZ) „Wytwórnia”. Zakład będzie produkować makarony. Pracować w nim będzie 21 osób niepełnosprawnych z Białegostoku i powiatu białostockiego. Są to podopieczni Towarzystwa Inicjatyw Społecznych ALPI.„Wytwórnia” bazuje na włoskiej recepturze i włoskim nauczycielu.</p><p>W ramach projektu, podopieczni uczestniczą w zajęciach rehabilitacji ruchowej oraz terapii zajęciowej. Projekt zakłada też aktywizację zawodową osób z niepełnosprawnością oraz pomoc w odnalezieniu się na rynku pracy.</p><p>- Możliwość pracy dowartościowuje człowieka. Dla naszych przyjaciół, podopiecznych praca to spełnienie marzeń. A naszym spełnieniem jest to miejsce – mówiła podczas oficjalnego otwarcia „Wytwórni” ZAZ Iwona Masalska.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/6998/11295/0x0.jpg",
+        "pictureAlt": "Zbliżenie na lazanię zrobioną z wytworzonego makaronu",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wloski-makaron-z-podlaskim-sercem.html",
         },
 
     "geometry": {
         "type": "Point",
-        "coordinates": [22.7153, 53.1203]
+        "coordinates": [23.12032, 53.12304]
         }
 };
