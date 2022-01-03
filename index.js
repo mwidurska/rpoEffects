@@ -198,3 +198,5 @@ displayProject(project14);
 displayProject(project15);
 displayProject(project16);
 displayProject(project17);
+displayProject(project18);
+displayProject(project19);
