@@ -200,3 +200,5 @@ displayProject(project16);
 displayProject(project17);
 displayProject(project18);
 displayProject(project19);
+displayProject(project20);
+displayProject(project21);
