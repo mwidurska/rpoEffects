@@ -353,3 +353,35 @@ var project16 = {
                     ]
                 }
 };
+var project17 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa dostępności i jakości diagnostyki onkologicznej i onkologicznych procedur medycznych poprzez doposażenie Białostockiego Centrum Onkologii',
+        "beneficiary": "Białostockie Centrum Onkologii im. M. Skłodowskiej-Curie w Białymstoku",
+        "sphere": "8",
+        "description": "Dzięki realizacji projektu Zakład Diagnostyki Obrazowej BCO został wyposażony w nowoczesne urządzenia: cyfrowy mammograf z funkcją tomosyntezy i mammografii, stół do biopsji stereotaktycznej piersi z wyposażeniem, cyfrowy aparat RTG ze stołem cyfrowym, system stereotaktycznej biopsji prostaty, aparat USG. Dodatkowo, Blok Operacyjny BCO zyskał nowy aparat do znieczuleń.</p><p>Warto podkreślić, że dzięki zakupowi tak innowacyjnego sprzętu możliwe jest wykonywanie badań i zabiegów, których do tej pory nie można było wykonywać w jednostkach ochrony zdrowia w naszym regionie.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8508/13461/0x0.jpg",
+        "pictureAlt": "Kabina RTG, drzwi, w tle łóżko i urządzenie RTG",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/zaklad-diagnostyki-obrazowej-w-bialostockim-centrum-onkologii.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.16977, 53.13465]
+        }
+};
+var project18 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa jakości systemu transportu publicznego w mieście Suwałki - III etap',
+        "beneficiary": "Miasto Suwałki",
+        "sphere": "5",
+        "description": "W ramach projektu miasto Suwałki kupiło 15 autobusów niskoemisyjnych oraz wprowadziło system informacji pasażerskiej. W autobusach pojawiło się piętnaście monitorów i dwa komplety tablic informacyjnych, a na przystankach dziesięć tablic elektronicznych.</p><p>Wdrożonono także system roweru miejskiego SUWER, w ramach którego zamontoowano m.in. dwanaście stacji rowerowych z terminalami i 120 rowerów, w tym rowery elektryczne i tandemy.</p><p>Aby poprawić bezpieczeństwo pasażerów i ułatwić transport miejski, zostaną również przebudowane niektóre ulice. Planowana jest: przebudowa ul. Daszyńskiego, obejmująca m.in. wykonanie ścieżki rowerowej i chodnika, zatoki i przystanku autobusowego. Następnie wykonano zjazdy oraz rozbudowę ul. Leśnej wraz z połączeniem ul. Raczkowskiej i przebudową skrzyżowania ul. Leśnej z ul. Raczkowską i Wojczyńskiego. W ramach projektu zostanie również przystosowany warsztat w budynku PGK do obsługi autobusów CNG.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wygodna-i-zrownowazona-komunikacja-miejska-w-suwalkach.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.16977, 53.13465]
+        }
+};
