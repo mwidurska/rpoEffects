@@ -418,7 +418,7 @@ var project19 = {
 			]
     }
 };
-var project19 = {
+var project20 = {
     "type": "Feature",
     "properties": {
         "title": 'Wykorzystanie potencjału przyrodniczego Hajnówki w rozwoju turystyki na obszarze LGD Puszcza Białowieska',
@@ -435,7 +435,7 @@ var project19 = {
         "coordinates": [22.56603, 52.71918]
         }
 };
-var project20 = {
+var project21 = {
     "type": "Feature",
     "properties": {
         "title": 'Rozwój zaplecza badawczo-rozwojowego i przeprowadzenie prac B+R aż do etapu pierwszej produkcji w obszarze zastosowania surowców ziołowych w tym poprodukcyjnych odpadów zielarskich do wytwarzania ekologicznych produktów',
