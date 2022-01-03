@@ -157,7 +157,7 @@ info.update = function (props) {
             this._div.innerHTML = '<div class="sphere map-axis'+ props.sphere + '"><h3>Tytuł projektu: ' + props.title + '</b></h3><p>Beneficjent: ' + props.beneficiary + '</p></div><p>'
             + props.description +'</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie">Dowiedz sie więcej o projekcie </a></p><div><img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </div>';
         } else {
-            this._div.innerHTML = '<div class="sphere map-axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent: ' + props.beneficiary + '</p></div><p>' + props.description +'</p></div>';
+            this._div.innerHTML = '<div class="sphere map-axis'+ props.sphere + '"><p><b>Tytuł projektu: ' + props.title + '</b></p><p>Beneficjent: ' + props.beneficiary + '</p></div><p>' + props.description +'+'</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie">Dowiedz sie więcej o projekcie </a></p></div>';
         }
 
     } else {
@@ -197,3 +197,4 @@ displayProject(project13);
 displayProject(project14);
 displayProject(project15);
 displayProject(project16);
+displayProject(project17);
