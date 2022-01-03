@@ -385,11 +385,11 @@ var project18 = {
                 "geometries": [
 			{
         "type": "Point",
-        "coordinates": [23.9715, 54.09478]
+        "coordinates": [22.9715, 54.09478]
         },
 			{
         "type": "Point",
-        "coordinates": [22.92813, 54.09868]
+        "coordinates": [22.92813, 54.09855]
         },
 			]
         }
@@ -409,7 +409,7 @@ var project19 = {
                 "geometries": [
 			{
         "type": "Point",
-        "coordinates": [23.9714, 54.09477]
+        "coordinates": [22.9713, 54.09480]
         },
 			{
         "type": "Point",
