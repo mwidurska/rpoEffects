@@ -138,7 +138,7 @@ function displayProject(unit) {
 
 var info = L.control();
 
-function _addButton() {
+_addButton: function() {
       var elements = this._container.getElementsByClassName('leaflet-control-layers-list');
       var button = L.DomUtil.create('button', 'my-button-class', elements[0]);
       button.innerText = 'Close control';
