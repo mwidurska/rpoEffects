@@ -79,7 +79,7 @@ function resetHighlight(e) {
 function onEachFeature(feature, layer) {
     layer.on({
         //mouseover: highlightFeature,
-        //mouseout: resetHighlight,
+        mouseout: resetHighlight,
         click: zoomToFeature,
     });
     switch (feature.properties.sphere) {
