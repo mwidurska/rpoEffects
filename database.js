@@ -381,7 +381,40 @@ var project18 = {
         },
 
     "geometry": {
+        "type": "GeometryCollection",
+                "geometries": [
+			{
         "type": "Point",
-        "coordinates": [23.16977, 53.13465]
+        "coordinates": [23.9715, 54.09478]
+        },
+			{
+        "type": "Point",
+        "coordinates": [22.92813, 54.09868]
+        },
+			]
         }
+};
+var project19 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa jakości systemu transportu publicznego w mieście Suwałki - IV etap',
+        "beneficiary": "Miasto Suwałki",
+        "sphere": "5",
+        "description": "Dzięki otrzymanej dotacji miasto zakupi cztery autobusy niskoemisyjne, rozszerzy system rowerów miejskich o dodatkowe cztery stacje i 40 rowerów – w tym elektryczne i tandem. Pojawią się nowe ścieżki rowerowe, chodniki, tablice elektroniczne na przystankach i zatoki autobusowe.</p><p>Zakup nowoczesnego taboru w połączeniu z systemem roweru miejskiego to lepsza mobilność mieszkańców, zmniejszenie zatłoczenia komunikacyjnego i ograniczenie hałasu. To również więcej korzyści dla środowiska - wygodny i komfortowy transport publiczny w Suwałkach ma zachęcać do przesiadania się z samochodów do autobusów czy korzystania z rowerów miejskich.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wygodna-i-zrownowazona-komunikacja-miejska-w-suwalkach.html",
+        },
+
+    "geometry": {
+	    "type": "GeometryCollection",
+                "geometries": [
+			{
+        "type": "Point",
+        "coordinates": [23.9714, 54.09477]
+        },
+			{
+        "type": "Point",
+        "coordinates": [22.92814, 54.09869]
+        },
+			]
+    }
 };
