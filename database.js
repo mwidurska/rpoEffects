@@ -253,3 +253,56 @@ var project12 = {
         "coordinates": [23.12032, 53.12304]
         }
 };
+var project13 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Wdrożenie nowej technologii produkcji myjni bezdotykowych z innowacyjnym systemem ogrzewania stanowisk mycia',
+        "beneficiary": "Eurowash Sp. z o.o.",
+        "sphere": "1",
+        "description": "Firma Eurowash Sp z o.o. jest firmą specjalizującą się w budowie nowoczesnych myjni bezdotykowych. Firma otrzymała dotację na projekt, którego celem było wdrożenie nowej technologii: myjni z innowacyjnym systemem ogrzewania stanowisk mycia. Przedmiotem projektu była budowa budynku produkcyjno-usługowego wraz częścią socjalno-biurową. Firma zakupiła także maszyny i urządzenia oraz oprogramowania niezbędne do wdrożenia nowej technologii.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8688/17025/0x0.jpg",
+        "pictureAlt": "Mężczyzna monitoruje pracę urządzenia",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/technologia-produkcji-myjni-bezdotykowych.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.1249804, 53.2755099]
+        }
+};
+var project14 = {
+    "type": "Feature",
+    "properties": {
+        "title": '"Hajnówka OdNowa" - rewitalizacja strefy urbanistycznej "Chemiczna" na terenie Miasta Hajnówka',
+        "beneficiary": "Gmina Miejska Hajnówka",
+        "sphere": "1",
+        "description": 'Projekt "Hajnówka OdNowa" składał się kilku etapów. Miasto zmodernizowało stadion, zbudowało dwa baseny, zagospodarowało teren Ośrodka Sportu i Rekreacji oraz teren przy Hajnowskim Domu Kultury. Zbudowano także plac zabaw, który został otwarty w 2019 roku.</p><p>Rodzinna Strefa Zabaw to supermiejsce dla małych i dużych. Strefa wyposażona jest m.in. w huśtawki, karuzelę, bujaki, różne urządzenia sprawnościowe. Jest tam również wiata z systemem zasilania solarnego (z możliwością ładowania urządzeń mobilnych). Rodzice, czekając na dzieci, mogą odpocząć na wygodnych wyprofilowanych leżakach, przy których znajdują się parkowe stoliki.</p><p>Stadion miejski przeszedł gruntowną modernizację. Amatorzy sportu mogą korzystać z boiska do piłki nożnej, kortów tenisowych oraz boiska do siatkówki. Znajduje się tu też stadion lekkoatletyczny i bieżnia.</p><p>Nowe baseny - mały i duży, będą służyć zarówno dzieciom jak i dorosłym. Mieszkańcy mogą z nich korzystać bezpłatnie.',
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8302/13178/0x0.jpg",
+        "pictureAlt": "Widok na całą strefę zabaw: urządzenia do wspinaczki, zjeżdżalnie, stoliki i ławki.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/hajnowka-odnowa.html",
+        },
+
+    "geometry": {
+		"type": "GeometryCollection",
+		"geometries": [
+			{
+			"type": "Point",
+			"coordinates": [23.57899, 52.74726]
+			},
+			{
+			"type": "Polygon",
+			"coordinates": [[
+				[23.5807136, 52.7484916],[23.5820070, 52.7484812],[23.5815788, 52.7452865],
+              [23.5813475, 52.7452097],[23.5793683, 52.7460459],[23.5798831, 52.7468760],
+              [23.5792601, 52.7477009],[23.5807136, 52.7484916],
+				]]
+			},
+			{
+			"type": "Polygon",
+			"coordinates": [[
+				[23.57845, 52.74711],[23.57881, 52.74697],[23.57967, 52.74706],[23.57922, 52.74772],[23.57887, 52.74752]
+				]]
+			},
+			]
+        }
+};
