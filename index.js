@@ -136,13 +136,21 @@ function displayProject(unit) {
 };
 
 
-
-
-
 var info = L.control();
+
+function _addButton() {
+      var elements = this._container.getElementsByClassName('leaflet-control-layers-list');
+      var button = L.DomUtil.create('button', 'my-button-class', elements[0]);
+      button.innerText = 'Close control';
+      L.DomEvent.on(button, 'click', function(e){
+        L.DomEvent.stop(e);
+        this._collapse();
+      }, this);
+    };
 
 info.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this._addButton();
     this.update();
     return this._div;
 };
