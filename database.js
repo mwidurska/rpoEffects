@@ -275,7 +275,7 @@ var project14 = {
     "properties": {
         "title": '"Hajnówka OdNowa" - rewitalizacja strefy urbanistycznej "Chemiczna" na terenie Miasta Hajnówka',
         "beneficiary": "Gmina Miejska Hajnówka",
-        "sphere": "1",
+        "sphere": "8",
         "description": 'Projekt "Hajnówka OdNowa" składał się kilku etapów. Miasto zmodernizowało stadion, zbudowało dwa baseny, zagospodarowało teren Ośrodka Sportu i Rekreacji oraz teren przy Hajnowskim Domu Kultury. Zbudowano także plac zabaw, który został otwarty w 2019 roku.</p><p>Rodzinna Strefa Zabaw to supermiejsce dla małych i dużych. Strefa wyposażona jest m.in. w huśtawki, karuzelę, bujaki, różne urządzenia sprawnościowe. Jest tam również wiata z systemem zasilania solarnego (z możliwością ładowania urządzeń mobilnych). Rodzice, czekając na dzieci, mogą odpocząć na wygodnych wyprofilowanych leżakach, przy których znajdują się parkowe stoliki.</p><p>Stadion miejski przeszedł gruntowną modernizację. Amatorzy sportu mogą korzystać z boiska do piłki nożnej, kortów tenisowych oraz boiska do siatkówki. Znajduje się tu też stadion lekkoatletyczny i bieżnia.</p><p>Nowe baseny - mały i duży, będą służyć zarówno dzieciom jak i dorosłym. Mieszkańcy mogą z nich korzystać bezpłatnie.',
         "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8302/13178/0x0.jpg",
         "pictureAlt": "Widok na całą strefę zabaw: urządzenia do wspinaczki, zjeżdżalnie, stoliki i ławki.",
@@ -305,4 +305,51 @@ var project14 = {
 			},
 			]
         }
+};
+var project15 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Rewitalizacja Bielskiego Domu Kultury i Kina „Znicz” na cele kulturalne, edukacyjne, społeczne',
+        "beneficiary": "Bielski Dom Kultury",
+        "sphere": "8",
+        "description": "W ramach projektu zrealizowane zostały prace budowlane tj.: rozbudowa, przebudowa i nadbudowa istniejącego budynku Bielskiego Domu Kultury. Centrum budynku stanowi świetnie wyposażona sala widowiskowo – kinowa (system nagłośnienia oraz oświetlenia scenicznego, nowoczesny system projekcyjny). W ośrodku znajdują się sale do zajęć plastycznych, tanecznych, a także strefa „Gier i zabaw”. Znalazło się tu też miejsce na galerię sztuki oraz salę konferencyjną. Bielski Dom Kultury ma własne studio nagrań oraz pracownię teatralną. Są tu też garderoby wykonawców, których wcześniej brakowało. Cały budynek dostosowany został do potrzeb osób z niepełnosprawnościami.</p><p> Bielski Dom Kultury kżdego roku organizuje lub współorganizuje około 200 imprez m.in. festiwale, przeglądy, koncerty, wystawy, spotkania, konkursy, seanse filmowe, pokazy teatralne oraz warsztaty.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10787/16300/0x0.jpg",
+        "pictureAlt": "Widok z góry na klatkę schodową",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-bielskiego-domu-kultury.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.18934, 52.76975]
+        }
+};
+var project16 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Modernizacja terenu nad zalewem w Sokółce w zakresie zagospodarowania sportowo-rekreacyjnego wraz z wykonania ciągu pieszo-rowerowego i infrastrukturą towarzyszącą',
+        "beneficiary": "Gmina Sokółka",
+        "sphere": "8",
+        "description": "Gmina Sokółka zagospodarowała teren położony nad zalewem. Zbudowana została ścieżka dla pieszych i rowerzystów, wraz z miejscami przeznaczonymi na odpoczynek. Nieopodal ścieżki powstał plac zabaw dla dzieci oraz siłownia pod chmurką. Teren wokół nich uporządkowano i ogrodzono drewnianą palisadą. Zadbano o zieleń, dosadzono nowe rośliny. Całość została także oświetlona lampami hybrydowymi, zasilanymi energią odnawialną.</p><p>Ponadto nad zalewem powstała pływająca kładka, schody terenowe oraz pochylnia przeznaczona do wodowania łodzi. Osoby wypoczywające nad zalewem mogą skorzystać z nowego pomostu oraz wieży widokowej.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10797/16367/0x0.jpg",
+        "pictureAlt": "Drewniany pomost nad zalewem",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/modernizacja-terenu-nad-zalewem-w-sokolce.html",
+        },
+
+    "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                    "type": "Point",
+                    "coordinates": [23.51996, 53.40214]
+                    },
+                    {
+                    "type": "Polygon",
+                    "coordinates": [[
+                        [23.5213967, 53.4025015], [23.5213235, 53.4024180], [23.5213369, 53.4023141], [23.5212913, 53.4022501], [23.5211948, 53.4022165], [23.5212129, 53.4021641],
+                        [23.5209024, 53.4021222],[23.5204595, 53.4020811], [23.5203990, 53.4020909],[23.5202748, 53.4021110], [23.5201406, 53.4021094], [23.5199288, 53.4020838], [23.5196603, 53.4020191], [23.5192191, 53.4019213], [23.5191293, 53.4018710], [23.5190664, 53.4017952], [23.5190481, 53.4016967], [23.5197387, 53.3999019], [23.5198000, 53.3998466], [23.5199261, 53.3998402],[23.5200199, 53.3998626], [23.5203811, 53.3997826], [23.5209148, 53.3997708], [23.5213503, 53.3997730], [23.5252241, 53.4000061], [23.5271538, 53.3999289], [23.5284002, 53.4002926], [23.5292257, 53.4008223],[23.5314105, 53.4018742], [23.5315136, 53.4019944], [23.5319449, 53.4028497], [23.5321512, 53.4029503], [23.5325959, 53.4030956],[23.5327301, 53.4031945], [23.5329440, 53.4035690], [23.5328627, 53.4035344], [23.5328080, 53.4033901], [23.5326423, 53.4032350], [23.5325412, 53.4031500], [23.5305637, 53.4026332], [23.5302371, 53.4026045], [23.5256569, 53.4024861], [23.5240701, 53.4024451],[23.5237926, 53.4024899],[23.5232423, 53.4027073],[23.5216643, 53.4026559], [23.5213967, 53.4025015],
+
+                        ]]
+                    },
+                    ]
+                }
 };
