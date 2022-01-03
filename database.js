@@ -418,3 +418,37 @@ var project19 = {
 			]
     }
 };
+var project19 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Wykorzystanie potencjału przyrodniczego Hajnówki w rozwoju turystyki na obszarze LGD Puszcza Białowieska',
+        "beneficiary": "Gmina Miejska Hajnówka",
+        "sphere": "8",
+        "description": "Projekt dotyczył ochrony różnorodności biologicznej występującej na terenie osiedla Judzianka w Hajnówce. W ramach przedsięwzięcia teren objęto ochroną przyrodniczą w formie użytku ekologicznego. Utworzono tam ścieżkę dydaktyczną, gdzie odbywać się mogą zajęcia z edukacji ekologicznej i ekoturystyki. </p><p>Utworzono dwa odcinki ścieżki – jeden o długości około 80 metrów, prowadzący do torfowiska przejściowego, będącego cennym miejscem również dla obserwacji ptaków. Drugi odcinek, o długości około 40 metrów, rozpoczyna się w połowie pierwszego odcinka i kieruje do siedliska brzeziny bagiennej. Cała trasa przebiega drewnianą kładką z 5 przystankami, przy których zamontowano tablice informacyjne. Tablice zawierają krótkie opisy siedliska przyrodniczego. Odwiedzający będą mogli zapoznać się z informacjami o biologicznej i przyrodniczej różnorodności regionu Puszczy Białowieskiej.</p><p>Na terenie sąsiadującej działki wykonano utwardzony plac wraz z niezbędną infrastrukturą techniczną, wiatę drewniana oraz elementy małej architektury m.in. tablice informacyjne, stojaki na rowery.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8263/13156/0x0.jpg",
+        "pictureAlt": "Ścieżka przyrodniczo-dydaktyczna w Hajnówce",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/ochrona-bioroznorodnosci-w-hajnowce.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.56603, 52.71918]
+        }
+};
+var project20 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Rozwój zaplecza badawczo-rozwojowego i przeprowadzenie prac B+R aż do etapu pierwszej produkcji w obszarze zastosowania surowców ziołowych w tym poprodukcyjnych odpadów zielarskich do wytwarzania ekologicznych produktów',
+        "beneficiary": 'Mirosław Angielczyk "Dary Natury"',
+        "sphere": "1",
+        "description": "Firma Dary Natury Mirosław Angielczyk od dziesięciu lat działa w obszarze ekologicznych produktów zielarskich. Aby zwiększyć konkurencyjność i innowacyjność przedsiębiorstwa rozbudowano infrastruktury B+R oraz przeprowadzono projekt badawczy. Obejmował on badania przemysłowe, prace rozwojowe oraz pierwsze wdrożenie.</p><p>Przedsiębiorstwo badało możliwości zastosowania naturalnych surowców roślinnych i zielarskich, w tym zagospodarowania odpadów produkcyjnych, do wytwarzania innowacyjnych produktów do stosowania w chowie krów mlecznych i drobiu. Projekt odpowiada na potrzeby firmy i otoczenia społeczno-gospodarczego - producentów mleka i drobiu. Wpisuje się w specjalizację województwa podlaskiego, czyli przemysł rolno-spożywczy.</p><p>Projekt zakłada Ekoprojektowanie, czyli zagospodarowanie odpadów poprodukcyjnych do wytwarzania nowych produktów. Wpływa to pozytywnie na środowisko naturalne, poprzez ponowne wykorzystanie materiałów bądź odpadów.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7270/12794/0x0.jpg",
+        "pictureAlt": "Sprzęt w laboratorium Dary Natury",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/badania-nad-ekologicznymi-produktami-zielarskimi.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.75652, 52.63942]
+        }
+};
