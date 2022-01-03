@@ -1,3 +1,24 @@
+const d = new Date();
+let hour = d.getHours();
+
+const picture = document.getElementById('bg-img');
+
+if (hour>18) {
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10794/16347/0x0.jpg" //suwałki
+} else if (hour>16){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16267/0x0.jpg"
+} else if (hour>14){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8761/13797/0x0.jpg"  //tartak
+} else if (hour>13){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7367/11916/0x0.jpg"  //okna atlant
+} else if (hour>12){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10797/16367/0x0.jpg"  //zalew w sokółce
+} else if (hour>10){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10787/16295/0x0.jpg"  //bdk
+} else if (hour>8){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10791/16322/0x0.jpg"  //bulwary w choroszczy
+};
+
 var base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
