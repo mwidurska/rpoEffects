@@ -1,23 +1,48 @@
-const d = new Date();
-let hour = d.getHours();
+const number = Math.ceil(100*Math.random());
+console.log(number);
 
 const picture = document.getElementById('bg-img');
 
-if (hour>18) {
+if (number>95) {
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10794/16347/0x0.jpg" //suwałki
-} else if (hour>16){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16267/0x0.jpg"
-} else if (hour>14){
+} else if (number>90){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16273/0x0.jpg" // Kopernik
+} else if (number>85){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7635/12326/0x0.jpg" // Korycin
+} else if (number>80){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8761/13797/0x0.jpg"  //tartak
-} else if (hour>13){
+} else if (number>75){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7367/11916/0x0.jpg"  //okna atlant
-} else if (hour>12){
+} else if (number>70){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10797/16367/0x0.jpg"  //zalew w sokółce
-} else if (hour>10){
+} else if (number>65){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10787/16295/0x0.jpg"  //bdk
-} else if (hour>8){
+} else if (number>60){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10791/16322/0x0.jpg"  //bulwary w choroszczy
-};
+} else if (number>55){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7199/11933/0x0.jpg" // PMKL
+} else if (number>50){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10792/16331/0x0.jpg" // domek qpro
+} else if (number>45){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg" // marand
+} else if (number>40){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11679/17383/0x0.jpg"  // sokolka-dabrowa
+} else if (number>35){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11013/16625/0x0.jpg"  // czapielowka
+} else if (number>30){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11205/16852/0x0.jpg"  // covid
+} else if (number>25){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8679/13713/0x0.jpg"  // hajnowka od nowa
+} else if (number>20){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8688/17024/0x0.jpg"  // eurowash
+} else if (number>15){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8227/13099/0x0.jpg" // kulesze koscielne
+} else if (number>10){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8526/13482/0x0.jpg"  // szpital w hajnowce
+} else if (number>5){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7230/11694/0x0.jpg" // iwet
+} else picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11110/16740/0x0.jpg"; //łomża centrum przesiadkowe
+
 
 var base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
