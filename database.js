@@ -366,9 +366,25 @@ var project15 = {
         }
 };
 
+var project16 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Łomża - Śniadowo - przebudowa drogi wojewódzkiej Nr 677',
+        "beneficiary": "Województwo Podlaskie",
+        "sphere": "4",
+        "description": "Obwodnica Konarzyc, która jest częścią modernizowanego odcinka drogi wojewódzkiej nr 677, w styczniu 2020 roku została oficjalnie przekazana do użytku. Konarzyce to przyległa do Łomży wieś, która stanowi długi obszar zwartej zabudowy. Z punktu widzenia kierowców, obszar ten znacznie spowalnia jazdę na czterokilometrowym odcinku drogi wojewódzkiej. Z kolei dla jej mieszkańców intensywny ruch samochodowy jest mocno uciążliwy – jest źródłem hałasu, zanieczyszczeń powietrza oraz wiążą się z nim poważne zagrożenia bezpieczeństwa.</p><p>Projekt przewidywał wykonanie wszystkich niezbędnych elementów służących sprawnemu, bezpiecznemu i bardziej komfortowemu poruszaniu się wszystkich uczestników ruchu, wykonanie odpowiedniego systemu odwodnienia oraz przebudowę kolidujących z inwestycją sieci uzbrojenia.W ramach przebudowy drogi wykonano m.in.: budowę ścieżki rowerowej o nawierzchni asfaltowej, budowę nowych i przebudowę istniejących zatok autobusowych, budowę chodników w rejonie zatok autobusowych oraz w terenie zabudowanym, przebudowę i budowę skrzyżowań z drogami gminnymi, a także budowę dróg serwisowych o nawierzchni bitumicznej.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/9624/15017/0x0.jpg",
+        "pictureAlt": "Samochód ciężarowy jedzie ulicą",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/obwodnica-konarzyc-oficjalnie-otwarta.html",
+        },
 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.0482, 53.1279]
+        }
+};
 
-var project8 = {
+var project100 = {
     "type": "Feature",
     "properties": {
         "title": 'ZSHE swoim uczniom na rzecz konkurencyjności podlaskiej gospodarki',
@@ -386,24 +402,8 @@ var project8 = {
         }
 };
 
-var project9 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Łomża - Śniadowo - przebudowa drogi wojewódzkiej Nr 677',
-        "beneficiary": "Województwo Podlaskie",
-        "sphere": "4",
-        "description": "Obwodnica Konarzyc, która jest częścią modernizowanego odcinka drogi wojewódzkiej nr 677, w styczniu 2020 roku została oficjalnie przekazana do użytku. Konarzyce to przyległa do Łomży wieś, która stanowi długi obszar zwartej zabudowy. Z punktu widzenia kierowców, obszar ten znacznie spowalnia jazdę na czterokilometrowym odcinku drogi wojewódzkiej. Z kolei dla jej mieszkańców intensywny ruch samochodowy jest mocno uciążliwy – jest źródłem hałasu, zanieczyszczeń powietrza oraz wiążą się z nim poważne zagrożenia bezpieczeństwa.</p><p>Projekt przewidywał wykonanie wszystkich niezbędnych elementów służących sprawnemu, bezpiecznemu i bardziej komfortowemu poruszaniu się wszystkich uczestników ruchu, wykonanie odpowiedniego systemu odwodnienia oraz przebudowę kolidujących z inwestycją sieci uzbrojenia.W ramach przebudowy drogi wykonano m.in.: budowę ścieżki rowerowej o nawierzchni asfaltowej, budowę nowych i przebudowę istniejących zatok autobusowych, budowę chodników w rejonie zatok autobusowych oraz w terenie zabudowanym, przebudowę i budowę skrzyżowań z drogami gminnymi, a także budowę dróg serwisowych o nawierzchni bitumicznej.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/9624/15017/0x0.jpg",
-        "pictureAlt": "Samochód ciężarowy jedzie ulicą",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/obwodnica-konarzyc-oficjalnie-otwarta.html",
-        },
 
-    "geometry": {
-        "type": "Point",
-        "coordinates": [22.0482, 53.1279]
-        }
-};
-var project10 = {
+var project101 = {
     "type": "Feature",
     "properties": {
         "title": 'Elektrownia fotowoltaiczna MARAND-KOBYLIN',
@@ -420,7 +420,7 @@ var project10 = {
         "coordinates": [22.7153, 53.1203]
         }
 };
-var project11 = {
+var project102 = {
     "type": "Feature",
     "properties": {
         "title": 'Modernizacja i rozbudowa oczyszczalni ścieków w Rajgrodzie oraz budowa rozdzielczej sieci wodociągowej w Rajgrodzie',
@@ -437,7 +437,7 @@ var project11 = {
         "coordinates": [22.6975, 53.7303]
         }
 };
-var project12 = {
+var project103 = {
     "type": "Feature",
     "properties": {
         "title": 'Aktywizacja od A do ZAZ',
