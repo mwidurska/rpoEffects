@@ -331,6 +331,24 @@ var project12a = {
 			]
     }
 };
+
+var project13 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Budynek zeroenergetyczny w konstrukcji modułowej',
+        "beneficiary": "UNIBEP S.A.",
+        "sphere": "1",
+        "description": "Celem projektu było opracowanie konstrukcji budynku modułowego, który nie będzie pobierał energii z zewnątrz, czyli inaczej mówiąc będzie samowystarczalny. Dzięki rozwiązaniom takim, jak np. odzysk ciepła z wentylacji czy doskonałej izolacji, zapotrzebowanie na energię grzewczą w tego typu domu jest bardzo niskie. Dodatkowo budynek zeroenergetyczny nie emituje dwutlenku węgla. Jest więc przyjazny środowisku.</p><p>Dofinansowanie pozwoliło na stworzenie prototypu takiego budynku. Montaż głównej konstrukcji budynku wyglądał spektakularnie i przyciągnął sporą grupę widzów. Moduły, jeden po drugim, za pomocą dźwigu zostały ustawione w cztery kondygnacje. Cała operacja trwała kilka godzin.</p><p>W budynku zastosowano nowe technologie – trzy różne rodzaje ścian zewnętrznych, trzy rodzaje dachu oraz trzy rodzaje podłóg na gruncie. Znalazła się tam też pompa ciepła oraz panele fotowoltaiczne. W ramach prac badawczo-rozwojowych budynek został poddany różnym testom. Wykonano badania akustyczne, szczelności, osiadania, odkształceń, a do tego we wszystkich przegrodach zewnętrznych umieszczono czujniki temperatury i wilgotności w celu sprawdzenia zachowania się ścian w warunkach rzeczywistych. Pozwoliło to na sprawdzenie opracowanych rozwiązań konstrukcyjnych i ich udoskonalenie. Dzięki środkom unijnym firma może rozpocząć produkcję i sprzedaż takich budynków.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7547/16310/0x0.jpg",
+        "pictureAlt": "Wnętrze pokoju z aneksem kuchennym",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/budynek-zeroenergetyczny.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.1794583, 52.7729593]
+        }
+};
 var project14 = {
     "type": "Feature",
     "properties": {
@@ -384,6 +402,53 @@ var project16 = {
         }
 };
 
+var project17 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa gospodarki niskoemisyjnej miasta Hajnówka poprzez budowę mikroinstalacji fotowoltaicznych i kolektorów słonecznych',
+        "beneficiary": "Gmina Miejska Hajnówka",
+        "sphere": "5",
+        "description": "W ramach projektu wykonano 48 instalacji kolektorów słonecznych i 35 instalacji fotowoltaicznych na budynkach mieszkańców. Dzięki instalacjom zwiększy się produkcja energii z odnawialnych źródeł i redukcja emisji CO2. W rezultacie przedsięwzięcia podniesienie się jakość życia mieszkańców i wzmocni ochronę środowiska w wyniku redukcji zanieczyszczeń do atmosfery. Mieszkańcy będą mogli też odczuć zmniejszenie opłat za energię cieplną i elektryczną.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8236/13105/0x0.jpg",
+        "pictureAlt": "Panele słoneczne umieszczone na dachu domu",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/mieszkancy-hajnowki-korzystaja-z-oze.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.0482, 53.1279]
+        }
+};
+var project18 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Uzbrojenie terenów Strefy Aktywności Gospodarczej w Augustowie',
+        "beneficiary": "Gmina Miasto Augustów",
+        "sphere": "1",
+        "description": "Miasto Augustów uzbroiło tereny inwestycyjne tworząc Strefę Aktywności Gospodarczej. Uzbrojono tereny na powierzchni 17,34 ha. Zakres inwestycji obejmował prace związane z uzbrojeniem terenów Strefy w sieć wodociągową i energetyczną. Zbudowano kanalizację sanitarną i deszczową. Wybudowano drogi wewnętrzne.</p><p>Tereny inwestycyjne w Augustowie są zlokalizowane na skrzyżowaniu dróg krajowych w kierunku Warszawy (DK 61) i Białegostoku (DK 8). Dzięki temu projektowi zwiększy się atrakcyjność inwestycyjna Augustowa, co wpłynie na większą liczbę przedsiębiorstw i powstawanie nowych miejsc pracy.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8371/13243/0x0.jpg",
+        "pictureAlt": "Ulica z miejscami parkingowymi, w tym jedno miejsce dla osób z niepełnosprawnością ",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/uzbrojenie-terenow-strefy-aktywnosci-gospodarczej-w-augustowie.html",
+        },
+
+    "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                    "type": "Point",
+                    "coordinates": [23.51996, 53.40214]
+                    },
+                    {
+                    "type": "Polygon",
+                    "coordinates": [[
+                        [23.5213967, 53.4025015], [23.5213235, 53.4024180], [23.5213369, 53.4023141], [23.5212913, 53.4022501], [23.5211948, 53.4022165], [23.5212129, 53.4021641],
+                        [23.5209024, 53.4021222],[23.5204595, 53.4020811], [23.5203990, 53.4020909],[23.5202748, 53.4021110], [23.5201406, 53.4021094], [23.5199288, 53.4020838], [23.5196603, 53.4020191], [23.5192191, 53.4019213], [23.5191293, 53.4018710], [23.5190664, 53.4017952], [23.5190481, 53.4016967], [23.5197387, 53.3999019], [23.5198000, 53.3998466], [23.5199261, 53.3998402],[23.5200199, 53.3998626], [23.5203811, 53.3997826], [23.5209148, 53.3997708], [23.5213503, 53.3997730], [23.5252241, 53.4000061], [23.5271538, 53.3999289], [23.5284002, 53.4002926], [23.5292257, 53.4008223],[23.5314105, 53.4018742], [23.5315136, 53.4019944], [23.5319449, 53.4028497], [23.5321512, 53.4029503], [23.5325959, 53.4030956],[23.5327301, 53.4031945], [23.5329440, 53.4035690], [23.5328627, 53.4035344], [23.5328080, 53.4033901], [23.5326423, 53.4032350], [23.5325412, 53.4031500], [23.5305637, 53.4026332], [23.5302371, 53.4026045], [23.5256569, 53.4024861], [23.5240701, 53.4024451],[23.5237926, 53.4024899],[23.5232423, 53.4027073],[23.5216643, 53.4026559], [23.5213967, 53.4025015],
+
+                        ]]
+                    },
+                    ]
+                }
+};
 var project100 = {
     "type": "Feature",
     "properties": {
