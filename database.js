@@ -35,7 +35,7 @@ var project2 = {
         "coordinates": [22.92551, 54.09664]
         }
 };
-var project3 = {
+var project2a = {
     
     "type": "Feature",
     "properties": {
@@ -54,7 +54,7 @@ var project3 = {
         }
 };
 
-var project4 = {
+var project3 = {
     
     "type": "Feature",
     "properties": {
@@ -84,7 +84,7 @@ var project4 = {
                     ]
                 }
 };
-var project5 = {
+var project4 = {
     
     "type": "Feature",
     "properties": {
@@ -103,7 +103,7 @@ var project5 = {
         }
 };
 
-var project6 = {
+var project5 = {
     
     "type": "Feature",
     "properties": {
@@ -148,7 +148,124 @@ var project6 = {
     
 };
 
+var project6 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Wdrożenie nowej technologii produkcji myjni bezdotykowych z innowacyjnym systemem ogrzewania stanowisk mycia',
+        "beneficiary": "Eurowash Sp. z o.o.",
+        "sphere": "1",
+        "description": "Firma Eurowash Sp z o.o. jest firmą specjalizującą się w budowie nowoczesnych myjni bezdotykowych. Firma otrzymała dotację na projekt, którego celem było wdrożenie nowej technologii: myjni z innowacyjnym systemem ogrzewania stanowisk mycia. Przedmiotem projektu była budowa budynku produkcyjno-usługowego wraz częścią socjalno-biurową. Firma zakupiła także maszyny i urządzenia oraz oprogramowania niezbędne do wdrożenia nowej technologii.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8688/17025/0x0.jpg",
+        "pictureAlt": "Mężczyzna monitoruje pracę urządzenia",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/technologia-produkcji-myjni-bezdotykowych.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.1249804, 53.2755099]
+        }
+};
 var project7 = {
+    "type": "Feature",
+    "properties": {
+        "title": '"Hajnówka OdNowa" - rewitalizacja strefy urbanistycznej "Chemiczna" na terenie Miasta Hajnówka',
+        "beneficiary": "Gmina Miejska Hajnówka",
+        "sphere": "8",
+        "description": 'Projekt "Hajnówka OdNowa" składał się kilku etapów. Miasto zmodernizowało stadion, zbudowało dwa baseny, zagospodarowało teren Ośrodka Sportu i Rekreacji oraz teren przy Hajnowskim Domu Kultury. Zbudowano także plac zabaw, który został otwarty w 2019 roku.</p><p>Rodzinna Strefa Zabaw to supermiejsce dla małych i dużych. Strefa wyposażona jest m.in. w huśtawki, karuzelę, bujaki, różne urządzenia sprawnościowe. Jest tam również wiata z systemem zasilania solarnego (z możliwością ładowania urządzeń mobilnych). Rodzice, czekając na dzieci, mogą odpocząć na wygodnych wyprofilowanych leżakach, przy których znajdują się parkowe stoliki.</p><p>Stadion miejski przeszedł gruntowną modernizację. Amatorzy sportu mogą korzystać z boiska do piłki nożnej, kortów tenisowych oraz boiska do siatkówki. Znajduje się tu też stadion lekkoatletyczny i bieżnia.</p><p>Nowe baseny - mały i duży, będą służyć zarówno dzieciom jak i dorosłym. Mieszkańcy mogą z nich korzystać bezpłatnie.',
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8302/13178/0x0.jpg",
+        "pictureAlt": "Widok na całą strefę zabaw: urządzenia do wspinaczki, zjeżdżalnie, stoliki i ławki.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/hajnowka-odnowa.html",
+        },
+
+    "geometry": {
+		"type": "GeometryCollection",
+		"geometries": [
+			{
+			"type": "Point",
+			"coordinates": [23.57899, 52.74726]
+			},
+			{
+			"type": "Polygon",
+			"coordinates": [[
+				[23.5807136, 52.7484916],[23.5820070, 52.7484812],[23.5815788, 52.7452865],
+              [23.5813475, 52.7452097],[23.5793683, 52.7460459],[23.5798831, 52.7468760],
+              [23.5792601, 52.7477009],[23.5807136, 52.7484916],
+				]]
+			},
+			{
+			"type": "Polygon",
+			"coordinates": [[
+				[23.57845, 52.74711],[23.57881, 52.74697],[23.57967, 52.74706],[23.57922, 52.74772],[23.57887, 52.74752]
+				]]
+			},
+			]
+        }
+};
+var project8 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Rewitalizacja Bielskiego Domu Kultury i Kina „Znicz” na cele kulturalne, edukacyjne, społeczne',
+        "beneficiary": "Bielski Dom Kultury",
+        "sphere": "8",
+        "description": "W ramach projektu zrealizowane zostały prace budowlane tj.: rozbudowa, przebudowa i nadbudowa istniejącego budynku Bielskiego Domu Kultury. Centrum budynku stanowi świetnie wyposażona sala widowiskowo – kinowa (system nagłośnienia oraz oświetlenia scenicznego, nowoczesny system projekcyjny). W ośrodku znajdują się sale do zajęć plastycznych, tanecznych, a także strefa „Gier i zabaw”. Znalazło się tu też miejsce na galerię sztuki oraz salę konferencyjną. Bielski Dom Kultury ma własne studio nagrań oraz pracownię teatralną. Są tu też garderoby wykonawców, których wcześniej brakowało. Cały budynek dostosowany został do potrzeb osób z niepełnosprawnościami.</p><p> Bielski Dom Kultury kżdego roku organizuje lub współorganizuje około 200 imprez m.in. festiwale, przeglądy, koncerty, wystawy, spotkania, konkursy, seanse filmowe, pokazy teatralne oraz warsztaty.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10787/16300/0x0.jpg",
+        "pictureAlt": "Widok z góry na klatkę schodową",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-bielskiego-domu-kultury.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.18934, 52.76975]
+        }
+};
+var project9 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Modernizacja terenu nad zalewem w Sokółce w zakresie zagospodarowania sportowo-rekreacyjnego wraz z wykonania ciągu pieszo-rowerowego i infrastrukturą towarzyszącą',
+        "beneficiary": "Gmina Sokółka",
+        "sphere": "8",
+        "description": "Gmina Sokółka zagospodarowała teren położony nad zalewem. Zbudowana została ścieżka dla pieszych i rowerzystów, wraz z miejscami przeznaczonymi na odpoczynek. Nieopodal ścieżki powstał plac zabaw dla dzieci oraz siłownia pod chmurką. Teren wokół nich uporządkowano i ogrodzono drewnianą palisadą. Zadbano o zieleń, dosadzono nowe rośliny. Całość została także oświetlona lampami hybrydowymi, zasilanymi energią odnawialną.</p><p>Ponadto nad zalewem powstała pływająca kładka, schody terenowe oraz pochylnia przeznaczona do wodowania łodzi. Osoby wypoczywające nad zalewem mogą skorzystać z nowego pomostu oraz wieży widokowej.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10797/16367/0x0.jpg",
+        "pictureAlt": "Drewniany pomost nad zalewem",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/modernizacja-terenu-nad-zalewem-w-sokolce.html",
+        },
+
+    "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                    "type": "Point",
+                    "coordinates": [23.51996, 53.40214]
+                    },
+                    {
+                    "type": "Polygon",
+                    "coordinates": [[
+                        [23.5213967, 53.4025015], [23.5213235, 53.4024180], [23.5213369, 53.4023141], [23.5212913, 53.4022501], [23.5211948, 53.4022165], [23.5212129, 53.4021641],
+                        [23.5209024, 53.4021222],[23.5204595, 53.4020811], [23.5203990, 53.4020909],[23.5202748, 53.4021110], [23.5201406, 53.4021094], [23.5199288, 53.4020838], [23.5196603, 53.4020191], [23.5192191, 53.4019213], [23.5191293, 53.4018710], [23.5190664, 53.4017952], [23.5190481, 53.4016967], [23.5197387, 53.3999019], [23.5198000, 53.3998466], [23.5199261, 53.3998402],[23.5200199, 53.3998626], [23.5203811, 53.3997826], [23.5209148, 53.3997708], [23.5213503, 53.3997730], [23.5252241, 53.4000061], [23.5271538, 53.3999289], [23.5284002, 53.4002926], [23.5292257, 53.4008223],[23.5314105, 53.4018742], [23.5315136, 53.4019944], [23.5319449, 53.4028497], [23.5321512, 53.4029503], [23.5325959, 53.4030956],[23.5327301, 53.4031945], [23.5329440, 53.4035690], [23.5328627, 53.4035344], [23.5328080, 53.4033901], [23.5326423, 53.4032350], [23.5325412, 53.4031500], [23.5305637, 53.4026332], [23.5302371, 53.4026045], [23.5256569, 53.4024861], [23.5240701, 53.4024451],[23.5237926, 53.4024899],[23.5232423, 53.4027073],[23.5216643, 53.4026559], [23.5213967, 53.4025015],
+
+                        ]]
+                    },
+                    ]
+                }
+};
+var project10 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa dostępności i jakości diagnostyki onkologicznej i onkologicznych procedur medycznych poprzez doposażenie Białostockiego Centrum Onkologii',
+        "beneficiary": "Białostockie Centrum Onkologii im. M. Skłodowskiej-Curie w Białymstoku",
+        "sphere": "8",
+        "description": "Dzięki realizacji projektu Zakład Diagnostyki Obrazowej BCO został wyposażony w nowoczesne urządzenia: cyfrowy mammograf z funkcją tomosyntezy i mammografii, stół do biopsji stereotaktycznej piersi z wyposażeniem, cyfrowy aparat RTG ze stołem cyfrowym, system stereotaktycznej biopsji prostaty, aparat USG. Dodatkowo, Blok Operacyjny BCO zyskał nowy aparat do znieczuleń.</p><p>Warto podkreślić, że dzięki zakupowi tak innowacyjnego sprzętu możliwe jest wykonywanie badań i zabiegów, których do tej pory nie można było wykonywać w jednostkach ochrony zdrowia w naszym regionie.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8508/13461/0x0.jpg",
+        "pictureAlt": "Kabina RTG, drzwi, w tle łóżko i urządzenie RTG",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/zaklad-diagnostyki-obrazowej-w-bialostockim-centrum-onkologii.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.16977, 53.13465]
+        }
+};
+var project11 = {
     
     "type": "Feature",
     "properties": {
@@ -166,6 +283,90 @@ var project7 = {
         "coordinates": [23.16343, 53.10834]
         }
 };
+var project12 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa jakości systemu transportu publicznego w mieście Suwałki - III etap',
+        "beneficiary": "Miasto Suwałki",
+        "sphere": "5",
+        "description": "W ramach projektu miasto Suwałki kupiło 15 autobusów niskoemisyjnych oraz wprowadziło system informacji pasażerskiej. W autobusach pojawiło się piętnaście monitorów i dwa komplety tablic informacyjnych, a na przystankach dziesięć tablic elektronicznych.</p><p>Wdrożonono także system roweru miejskiego SUWER, w ramach którego zamontoowano m.in. dwanaście stacji rowerowych z terminalami i 120 rowerów, w tym rowery elektryczne i tandemy.</p><p>Aby poprawić bezpieczeństwo pasażerów i ułatwić transport miejski, zostaną również przebudowane niektóre ulice. Planowana jest: przebudowa ul. Daszyńskiego, obejmująca m.in. wykonanie ścieżki rowerowej i chodnika, zatoki i przystanku autobusowego. Następnie wykonano zjazdy oraz rozbudowę ul. Leśnej wraz z połączeniem ul. Raczkowskiej i przebudową skrzyżowania ul. Leśnej z ul. Raczkowską i Wojczyńskiego. W ramach projektu zostanie również przystosowany warsztat w budynku PGK do obsługi autobusów CNG.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wygodna-i-zrownowazona-komunikacja-miejska-w-suwalkach.html",
+        },
+
+    "geometry": {
+        "type": "GeometryCollection",
+                "geometries": [
+			{
+        "type": "Point",
+        "coordinates": [22.9715, 54.09478]
+        },
+			{
+        "type": "Point",
+        "coordinates": [22.92813, 54.09855]
+        },
+			]
+        }
+};
+var project12a = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa jakości systemu transportu publicznego w mieście Suwałki - IV etap',
+        "beneficiary": "Miasto Suwałki",
+        "sphere": "5",
+        "description": "Dzięki otrzymanej dotacji miasto zakupi cztery autobusy niskoemisyjne, rozszerzy system rowerów miejskich o dodatkowe cztery stacje i 40 rowerów – w tym elektryczne i tandem. Pojawią się nowe ścieżki rowerowe, chodniki, tablice elektroniczne na przystankach i zatoki autobusowe.</p><p>Zakup nowoczesnego taboru w połączeniu z systemem roweru miejskiego to lepsza mobilność mieszkańców, zmniejszenie zatłoczenia komunikacyjnego i ograniczenie hałasu. To również więcej korzyści dla środowiska - wygodny i komfortowy transport publiczny w Suwałkach ma zachęcać do przesiadania się z samochodów do autobusów czy korzystania z rowerów miejskich.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wygodna-i-zrownowazona-komunikacja-miejska-w-suwalkach.html",
+        },
+
+    "geometry": {
+	    "type": "GeometryCollection",
+                "geometries": [
+			{
+        "type": "Point",
+        "coordinates": [22.9713, 54.09480]
+        },
+			{
+        "type": "Point",
+        "coordinates": [22.92814, 54.09869]
+        },
+			]
+    }
+};
+var project14 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Wykorzystanie potencjału przyrodniczego Hajnówki w rozwoju turystyki na obszarze LGD Puszcza Białowieska',
+        "beneficiary": "Gmina Miejska Hajnówka",
+        "sphere": "8",
+        "description": "Projekt dotyczył ochrony różnorodności biologicznej występującej na terenie osiedla Judzianka w Hajnówce. W ramach przedsięwzięcia teren objęto ochroną przyrodniczą w formie użytku ekologicznego. Utworzono tam ścieżkę dydaktyczną, gdzie odbywać się mogą zajęcia z edukacji ekologicznej i ekoturystyki. </p><p>Utworzono dwa odcinki ścieżki – jeden o długości około 80 metrów, prowadzący do torfowiska przejściowego, będącego cennym miejscem również dla obserwacji ptaków. Drugi odcinek, o długości około 40 metrów, rozpoczyna się w połowie pierwszego odcinka i kieruje do siedliska brzeziny bagiennej. Cała trasa przebiega drewnianą kładką z 5 przystankami, przy których zamontowano tablice informacyjne. Tablice zawierają krótkie opisy siedliska przyrodniczego. Odwiedzający będą mogli zapoznać się z informacjami o biologicznej i przyrodniczej różnorodności regionu Puszczy Białowieskiej.</p><p>Na terenie sąsiadującej działki wykonano utwardzony plac wraz z niezbędną infrastrukturą techniczną, wiatę drewniana oraz elementy małej architektury m.in. tablice informacyjne, stojaki na rowery.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8263/13156/0x0.jpg",
+        "pictureAlt": "Ścieżka przyrodniczo-dydaktyczna w Hajnówce",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/ochrona-bioroznorodnosci-w-hajnowce.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.56603, 52.71918]
+        }
+};
+var project15 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Rozwój zaplecza badawczo-rozwojowego i przeprowadzenie prac B+R aż do etapu pierwszej produkcji w obszarze zastosowania surowców ziołowych w tym poprodukcyjnych odpadów zielarskich do wytwarzania ekologicznych produktów',
+        "beneficiary": 'Mirosław Angielczyk "Dary Natury"',
+        "sphere": "1",
+        "description": "Firma Dary Natury Mirosław Angielczyk od dziesięciu lat działa w obszarze ekologicznych produktów zielarskich. Aby zwiększyć konkurencyjność i innowacyjność przedsiębiorstwa rozbudowano infrastruktury B+R oraz przeprowadzono projekt badawczy. Obejmował on badania przemysłowe, prace rozwojowe oraz pierwsze wdrożenie.</p><p>Przedsiębiorstwo badało możliwości zastosowania naturalnych surowców roślinnych i zielarskich, w tym zagospodarowania odpadów produkcyjnych, do wytwarzania innowacyjnych produktów do stosowania w chowie krów mlecznych i drobiu. Projekt odpowiada na potrzeby firmy i otoczenia społeczno-gospodarczego - producentów mleka i drobiu. Wpisuje się w specjalizację województwa podlaskiego, czyli przemysł rolno-spożywczy.</p><p>Projekt zakłada Ekoprojektowanie, czyli zagospodarowanie odpadów poprodukcyjnych do wytwarzania nowych produktów. Wpływa to pozytywnie na środowisko naturalne, poprzez ponowne wykorzystanie materiałów bądź odpadów.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7270/12794/0x0.jpg",
+        "pictureAlt": "Sprzęt w laboratorium Dary Natury",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/badania-nad-ekologicznymi-produktami-zielarskimi.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.75652, 52.63942]
+        }
+};
+
+
 
 var project8 = {
     "type": "Feature",
@@ -251,204 +452,5 @@ var project12 = {
     "geometry": {
         "type": "Point",
         "coordinates": [23.12032, 53.12304]
-        }
-};
-var project13 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Wdrożenie nowej technologii produkcji myjni bezdotykowych z innowacyjnym systemem ogrzewania stanowisk mycia',
-        "beneficiary": "Eurowash Sp. z o.o.",
-        "sphere": "1",
-        "description": "Firma Eurowash Sp z o.o. jest firmą specjalizującą się w budowie nowoczesnych myjni bezdotykowych. Firma otrzymała dotację na projekt, którego celem było wdrożenie nowej technologii: myjni z innowacyjnym systemem ogrzewania stanowisk mycia. Przedmiotem projektu była budowa budynku produkcyjno-usługowego wraz częścią socjalno-biurową. Firma zakupiła także maszyny i urządzenia oraz oprogramowania niezbędne do wdrożenia nowej technologii.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8688/17025/0x0.jpg",
-        "pictureAlt": "Mężczyzna monitoruje pracę urządzenia",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/technologia-produkcji-myjni-bezdotykowych.html",
-        },
-
-    "geometry": {
-        "type": "Point",
-        "coordinates": [23.1249804, 53.2755099]
-        }
-};
-var project14 = {
-    "type": "Feature",
-    "properties": {
-        "title": '"Hajnówka OdNowa" - rewitalizacja strefy urbanistycznej "Chemiczna" na terenie Miasta Hajnówka',
-        "beneficiary": "Gmina Miejska Hajnówka",
-        "sphere": "8",
-        "description": 'Projekt "Hajnówka OdNowa" składał się kilku etapów. Miasto zmodernizowało stadion, zbudowało dwa baseny, zagospodarowało teren Ośrodka Sportu i Rekreacji oraz teren przy Hajnowskim Domu Kultury. Zbudowano także plac zabaw, który został otwarty w 2019 roku.</p><p>Rodzinna Strefa Zabaw to supermiejsce dla małych i dużych. Strefa wyposażona jest m.in. w huśtawki, karuzelę, bujaki, różne urządzenia sprawnościowe. Jest tam również wiata z systemem zasilania solarnego (z możliwością ładowania urządzeń mobilnych). Rodzice, czekając na dzieci, mogą odpocząć na wygodnych wyprofilowanych leżakach, przy których znajdują się parkowe stoliki.</p><p>Stadion miejski przeszedł gruntowną modernizację. Amatorzy sportu mogą korzystać z boiska do piłki nożnej, kortów tenisowych oraz boiska do siatkówki. Znajduje się tu też stadion lekkoatletyczny i bieżnia.</p><p>Nowe baseny - mały i duży, będą służyć zarówno dzieciom jak i dorosłym. Mieszkańcy mogą z nich korzystać bezpłatnie.',
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8302/13178/0x0.jpg",
-        "pictureAlt": "Widok na całą strefę zabaw: urządzenia do wspinaczki, zjeżdżalnie, stoliki i ławki.",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/hajnowka-odnowa.html",
-        },
-
-    "geometry": {
-		"type": "GeometryCollection",
-		"geometries": [
-			{
-			"type": "Point",
-			"coordinates": [23.57899, 52.74726]
-			},
-			{
-			"type": "Polygon",
-			"coordinates": [[
-				[23.5807136, 52.7484916],[23.5820070, 52.7484812],[23.5815788, 52.7452865],
-              [23.5813475, 52.7452097],[23.5793683, 52.7460459],[23.5798831, 52.7468760],
-              [23.5792601, 52.7477009],[23.5807136, 52.7484916],
-				]]
-			},
-			{
-			"type": "Polygon",
-			"coordinates": [[
-				[23.57845, 52.74711],[23.57881, 52.74697],[23.57967, 52.74706],[23.57922, 52.74772],[23.57887, 52.74752]
-				]]
-			},
-			]
-        }
-};
-var project15 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Rewitalizacja Bielskiego Domu Kultury i Kina „Znicz” na cele kulturalne, edukacyjne, społeczne',
-        "beneficiary": "Bielski Dom Kultury",
-        "sphere": "8",
-        "description": "W ramach projektu zrealizowane zostały prace budowlane tj.: rozbudowa, przebudowa i nadbudowa istniejącego budynku Bielskiego Domu Kultury. Centrum budynku stanowi świetnie wyposażona sala widowiskowo – kinowa (system nagłośnienia oraz oświetlenia scenicznego, nowoczesny system projekcyjny). W ośrodku znajdują się sale do zajęć plastycznych, tanecznych, a także strefa „Gier i zabaw”. Znalazło się tu też miejsce na galerię sztuki oraz salę konferencyjną. Bielski Dom Kultury ma własne studio nagrań oraz pracownię teatralną. Są tu też garderoby wykonawców, których wcześniej brakowało. Cały budynek dostosowany został do potrzeb osób z niepełnosprawnościami.</p><p> Bielski Dom Kultury kżdego roku organizuje lub współorganizuje około 200 imprez m.in. festiwale, przeglądy, koncerty, wystawy, spotkania, konkursy, seanse filmowe, pokazy teatralne oraz warsztaty.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10787/16300/0x0.jpg",
-        "pictureAlt": "Widok z góry na klatkę schodową",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-bielskiego-domu-kultury.html",
-        },
-
-    "geometry": {
-        "type": "Point",
-        "coordinates": [23.18934, 52.76975]
-        }
-};
-var project16 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Modernizacja terenu nad zalewem w Sokółce w zakresie zagospodarowania sportowo-rekreacyjnego wraz z wykonania ciągu pieszo-rowerowego i infrastrukturą towarzyszącą',
-        "beneficiary": "Gmina Sokółka",
-        "sphere": "8",
-        "description": "Gmina Sokółka zagospodarowała teren położony nad zalewem. Zbudowana została ścieżka dla pieszych i rowerzystów, wraz z miejscami przeznaczonymi na odpoczynek. Nieopodal ścieżki powstał plac zabaw dla dzieci oraz siłownia pod chmurką. Teren wokół nich uporządkowano i ogrodzono drewnianą palisadą. Zadbano o zieleń, dosadzono nowe rośliny. Całość została także oświetlona lampami hybrydowymi, zasilanymi energią odnawialną.</p><p>Ponadto nad zalewem powstała pływająca kładka, schody terenowe oraz pochylnia przeznaczona do wodowania łodzi. Osoby wypoczywające nad zalewem mogą skorzystać z nowego pomostu oraz wieży widokowej.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10797/16367/0x0.jpg",
-        "pictureAlt": "Drewniany pomost nad zalewem",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/modernizacja-terenu-nad-zalewem-w-sokolce.html",
-        },
-
-    "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                    "type": "Point",
-                    "coordinates": [23.51996, 53.40214]
-                    },
-                    {
-                    "type": "Polygon",
-                    "coordinates": [[
-                        [23.5213967, 53.4025015], [23.5213235, 53.4024180], [23.5213369, 53.4023141], [23.5212913, 53.4022501], [23.5211948, 53.4022165], [23.5212129, 53.4021641],
-                        [23.5209024, 53.4021222],[23.5204595, 53.4020811], [23.5203990, 53.4020909],[23.5202748, 53.4021110], [23.5201406, 53.4021094], [23.5199288, 53.4020838], [23.5196603, 53.4020191], [23.5192191, 53.4019213], [23.5191293, 53.4018710], [23.5190664, 53.4017952], [23.5190481, 53.4016967], [23.5197387, 53.3999019], [23.5198000, 53.3998466], [23.5199261, 53.3998402],[23.5200199, 53.3998626], [23.5203811, 53.3997826], [23.5209148, 53.3997708], [23.5213503, 53.3997730], [23.5252241, 53.4000061], [23.5271538, 53.3999289], [23.5284002, 53.4002926], [23.5292257, 53.4008223],[23.5314105, 53.4018742], [23.5315136, 53.4019944], [23.5319449, 53.4028497], [23.5321512, 53.4029503], [23.5325959, 53.4030956],[23.5327301, 53.4031945], [23.5329440, 53.4035690], [23.5328627, 53.4035344], [23.5328080, 53.4033901], [23.5326423, 53.4032350], [23.5325412, 53.4031500], [23.5305637, 53.4026332], [23.5302371, 53.4026045], [23.5256569, 53.4024861], [23.5240701, 53.4024451],[23.5237926, 53.4024899],[23.5232423, 53.4027073],[23.5216643, 53.4026559], [23.5213967, 53.4025015],
-
-                        ]]
-                    },
-                    ]
-                }
-};
-var project17 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Poprawa dostępności i jakości diagnostyki onkologicznej i onkologicznych procedur medycznych poprzez doposażenie Białostockiego Centrum Onkologii',
-        "beneficiary": "Białostockie Centrum Onkologii im. M. Skłodowskiej-Curie w Białymstoku",
-        "sphere": "8",
-        "description": "Dzięki realizacji projektu Zakład Diagnostyki Obrazowej BCO został wyposażony w nowoczesne urządzenia: cyfrowy mammograf z funkcją tomosyntezy i mammografii, stół do biopsji stereotaktycznej piersi z wyposażeniem, cyfrowy aparat RTG ze stołem cyfrowym, system stereotaktycznej biopsji prostaty, aparat USG. Dodatkowo, Blok Operacyjny BCO zyskał nowy aparat do znieczuleń.</p><p>Warto podkreślić, że dzięki zakupowi tak innowacyjnego sprzętu możliwe jest wykonywanie badań i zabiegów, których do tej pory nie można było wykonywać w jednostkach ochrony zdrowia w naszym regionie.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8508/13461/0x0.jpg",
-        "pictureAlt": "Kabina RTG, drzwi, w tle łóżko i urządzenie RTG",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/zaklad-diagnostyki-obrazowej-w-bialostockim-centrum-onkologii.html",
-        },
-
-    "geometry": {
-        "type": "Point",
-        "coordinates": [23.16977, 53.13465]
-        }
-};
-var project18 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Poprawa jakości systemu transportu publicznego w mieście Suwałki - III etap',
-        "beneficiary": "Miasto Suwałki",
-        "sphere": "5",
-        "description": "W ramach projektu miasto Suwałki kupiło 15 autobusów niskoemisyjnych oraz wprowadziło system informacji pasażerskiej. W autobusach pojawiło się piętnaście monitorów i dwa komplety tablic informacyjnych, a na przystankach dziesięć tablic elektronicznych.</p><p>Wdrożonono także system roweru miejskiego SUWER, w ramach którego zamontoowano m.in. dwanaście stacji rowerowych z terminalami i 120 rowerów, w tym rowery elektryczne i tandemy.</p><p>Aby poprawić bezpieczeństwo pasażerów i ułatwić transport miejski, zostaną również przebudowane niektóre ulice. Planowana jest: przebudowa ul. Daszyńskiego, obejmująca m.in. wykonanie ścieżki rowerowej i chodnika, zatoki i przystanku autobusowego. Następnie wykonano zjazdy oraz rozbudowę ul. Leśnej wraz z połączeniem ul. Raczkowskiej i przebudową skrzyżowania ul. Leśnej z ul. Raczkowską i Wojczyńskiego. W ramach projektu zostanie również przystosowany warsztat w budynku PGK do obsługi autobusów CNG.",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wygodna-i-zrownowazona-komunikacja-miejska-w-suwalkach.html",
-        },
-
-    "geometry": {
-        "type": "GeometryCollection",
-                "geometries": [
-			{
-        "type": "Point",
-        "coordinates": [22.9715, 54.09478]
-        },
-			{
-        "type": "Point",
-        "coordinates": [22.92813, 54.09855]
-        },
-			]
-        }
-};
-var project19 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Poprawa jakości systemu transportu publicznego w mieście Suwałki - IV etap',
-        "beneficiary": "Miasto Suwałki",
-        "sphere": "5",
-        "description": "Dzięki otrzymanej dotacji miasto zakupi cztery autobusy niskoemisyjne, rozszerzy system rowerów miejskich o dodatkowe cztery stacje i 40 rowerów – w tym elektryczne i tandem. Pojawią się nowe ścieżki rowerowe, chodniki, tablice elektroniczne na przystankach i zatoki autobusowe.</p><p>Zakup nowoczesnego taboru w połączeniu z systemem roweru miejskiego to lepsza mobilność mieszkańców, zmniejszenie zatłoczenia komunikacyjnego i ograniczenie hałasu. To również więcej korzyści dla środowiska - wygodny i komfortowy transport publiczny w Suwałkach ma zachęcać do przesiadania się z samochodów do autobusów czy korzystania z rowerów miejskich.",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wygodna-i-zrownowazona-komunikacja-miejska-w-suwalkach.html",
-        },
-
-    "geometry": {
-	    "type": "GeometryCollection",
-                "geometries": [
-			{
-        "type": "Point",
-        "coordinates": [22.9713, 54.09480]
-        },
-			{
-        "type": "Point",
-        "coordinates": [22.92814, 54.09869]
-        },
-			]
-    }
-};
-var project20 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Wykorzystanie potencjału przyrodniczego Hajnówki w rozwoju turystyki na obszarze LGD Puszcza Białowieska',
-        "beneficiary": "Gmina Miejska Hajnówka",
-        "sphere": "8",
-        "description": "Projekt dotyczył ochrony różnorodności biologicznej występującej na terenie osiedla Judzianka w Hajnówce. W ramach przedsięwzięcia teren objęto ochroną przyrodniczą w formie użytku ekologicznego. Utworzono tam ścieżkę dydaktyczną, gdzie odbywać się mogą zajęcia z edukacji ekologicznej i ekoturystyki. </p><p>Utworzono dwa odcinki ścieżki – jeden o długości około 80 metrów, prowadzący do torfowiska przejściowego, będącego cennym miejscem również dla obserwacji ptaków. Drugi odcinek, o długości około 40 metrów, rozpoczyna się w połowie pierwszego odcinka i kieruje do siedliska brzeziny bagiennej. Cała trasa przebiega drewnianą kładką z 5 przystankami, przy których zamontowano tablice informacyjne. Tablice zawierają krótkie opisy siedliska przyrodniczego. Odwiedzający będą mogli zapoznać się z informacjami o biologicznej i przyrodniczej różnorodności regionu Puszczy Białowieskiej.</p><p>Na terenie sąsiadującej działki wykonano utwardzony plac wraz z niezbędną infrastrukturą techniczną, wiatę drewniana oraz elementy małej architektury m.in. tablice informacyjne, stojaki na rowery.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8263/13156/0x0.jpg",
-        "pictureAlt": "Ścieżka przyrodniczo-dydaktyczna w Hajnówce",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/ochrona-bioroznorodnosci-w-hajnowce.html",
-        },
-
-    "geometry": {
-        "type": "Point",
-        "coordinates": [23.56603, 52.71918]
-        }
-};
-var project21 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Rozwój zaplecza badawczo-rozwojowego i przeprowadzenie prac B+R aż do etapu pierwszej produkcji w obszarze zastosowania surowców ziołowych w tym poprodukcyjnych odpadów zielarskich do wytwarzania ekologicznych produktów',
-        "beneficiary": 'Mirosław Angielczyk "Dary Natury"',
-        "sphere": "1",
-        "description": "Firma Dary Natury Mirosław Angielczyk od dziesięciu lat działa w obszarze ekologicznych produktów zielarskich. Aby zwiększyć konkurencyjność i innowacyjność przedsiębiorstwa rozbudowano infrastruktury B+R oraz przeprowadzono projekt badawczy. Obejmował on badania przemysłowe, prace rozwojowe oraz pierwsze wdrożenie.</p><p>Przedsiębiorstwo badało możliwości zastosowania naturalnych surowców roślinnych i zielarskich, w tym zagospodarowania odpadów produkcyjnych, do wytwarzania innowacyjnych produktów do stosowania w chowie krów mlecznych i drobiu. Projekt odpowiada na potrzeby firmy i otoczenia społeczno-gospodarczego - producentów mleka i drobiu. Wpisuje się w specjalizację województwa podlaskiego, czyli przemysł rolno-spożywczy.</p><p>Projekt zakłada Ekoprojektowanie, czyli zagospodarowanie odpadów poprodukcyjnych do wytwarzania nowych produktów. Wpływa to pozytywnie na środowisko naturalne, poprzez ponowne wykorzystanie materiałów bądź odpadów.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7270/12794/0x0.jpg",
-        "pictureAlt": "Sprzęt w laboratorium Dary Natury",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/badania-nad-ekologicznymi-produktami-zielarskimi.html",
-        },
-
-    "geometry": {
-        "type": "Point",
-        "coordinates": [22.75652, 52.63942]
         }
 };
