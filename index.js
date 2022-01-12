@@ -229,6 +229,7 @@ legend.addTo(map);
 
 displayProject(project1);
 displayProject(project2);
+displayProject(project2a);
 displayProject(project3);
 displayProject(project4);
 displayProject(project5);
@@ -239,12 +240,13 @@ displayProject(project9);
 displayProject(project10);
 displayProject(project11);
 displayProject(project12);
+displayProject(project12a);
 displayProject(project13);
 displayProject(project14);
 displayProject(project15);
 displayProject(project16);
-displayProject(project17);
-displayProject(project18);
-displayProject(project19);
-displayProject(project20);
-displayProject(project21);
+displayProject(project100);
+displayProject(project101);
+displayProject(project102);
+displayProject(project103);
+
