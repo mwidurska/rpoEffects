@@ -449,6 +449,24 @@ var project18 = {
                     ]
                 }
 };
+var project19 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Spacer w przeszłość – konserwacja i rewitalizacja dziedzictwa kulturowego Pałacu Branickich w Białymstoku',
+        "beneficiary": "Uniwersytet Medyczny w Białymstoku",
+        "sphere": "8",
+        "description": "Uniwersytet Medyczny w Białymstoku stworzył ścieżkę historyczną Spacer w przeszłość, dzięki której można zwiedzić najcenniejsze pomieszczenia Pałacu Branickich oraz zapoznać się z historią medycyny i farmacji w uniwersyteckim muzeum.</p><p>Projekt zakładał prace konserwatorskie m.in. w Aula Magna, Kaplicy oraz w piwnicach Pałacu. Odrestaurowano zabytkowe sztukaterie, boazerie, stolarkę drzwiową i posadzki, odnowiono obrazy, rzeźby i malowidła. Wymieniono także instalację grzewczą, a w piwnicach dodatkowo założono instalację elektryczną. Dzięki temu mogła tam powstać multimedialna wystawa.</p><p>Projekt obejmował także zwiększenie dostępności obiektu dla osób z niepełnosprawnościami, przy pomocy m.in. przewodników z audiodeskrypcją, przewodników brajlowskich, a także umożliwiających odsłuchanie informacji o historii Pałacu.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8236/13105/0x0.jpg",
+        "pictureAlt": "Panele słoneczne umieszczone na dachu domu",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/mieszkancy-hajnowki-korzystaja-z-oze.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.16502, 53.13062]
+        }
+};
+
 var project100 = {
     "type": "Feature",
     "properties": {
