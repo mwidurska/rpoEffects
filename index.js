@@ -51,7 +51,7 @@ var base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var map = L.map('rev_map', {
     center: [53.34009, 22.96185],
     zoom: 8,
-    minZoom: 8,
+    minZoom: 7,
     layers: [base],
     zoomControl: false
 });
