@@ -51,8 +51,12 @@ var base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var map = L.map('rev_map', {
     center: [53.34009, 22.96185],
     zoom: 8,
-    layers: [base]
+    minZoom: 2,
+    layers: [base],
+    zoomControl: false
 });
+
+map.addControl(new L.Control.ZoomMin());
 
 var Layer1 = L.geoJSON().addTo(map),
     Layer2 = L.geoJSON().addTo(map),
@@ -245,6 +249,9 @@ displayProject(project13);
 displayProject(project14);
 displayProject(project15);
 displayProject(project16);
+displayProject(project17);
+displayProject(project18);
+displayProject(project19);
 displayProject(project100);
 displayProject(project101);
 displayProject(project102);
