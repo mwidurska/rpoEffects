@@ -489,6 +489,94 @@ var project19 = {
                     ]
         }
 };
+var project20 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Zagospodarowanie placu w centrum miejscowości Kulesze Kościelne na cele rekreacyjne',
+        "beneficiary": "Gmina Kulsze Kościelne",
+        "sphere": "8",
+        "description": "Był to projekt partnerski realizowany przez lidera – Gminę Kulesze Kościelne oraz partnera nieformalnego – Ochotniczą Straż Pożarną w Kuleszach Kościelnych. Plac w centrum miejscowości Kulesze Kościelne został zrewitalizowany na cele rekreacyjne. Miejsce to jest teraz ogólnodostępne, wyposażone w sprzęty sportowe – siłownię na świeżym powietrzu. Z atrakcyjnego i bezpiecznego placu zabaw korzystać mogą rodziny dziećmi.</p><p>W ramach projektu zbudowano ogrodzenie. Wymieniono kosze, ławki, zamontowano oświetlenie, które korzysta z energii słońca. Mieszkańcy mogą odpoczywać w pobliżu nowego oczka wodnego i kładki.</p><p>Rewitalizacja placu na cele społeczności i utworzenie parku zwiększy bezpieczeństwo całego terenu i poprawi estetykę obszaru. Dzięki inwestycji poprawi się jakość życia mieszkańców.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8227/13099/0x0.jpg",
+        "pictureAlt": "Nowe alejki i ławki na placu w Kuleszach Kościelnych",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/zrewitalizowany-plac-w-kuleszach-koscielnych.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.50932, 53.01716]
+        }
+};
+
+var project21 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Rewitalizacja boiska wielofunkcyjnego w Wasilkowie',
+        "beneficiary": "Gmina Wasilków",
+        "sphere": "8",
+        "description": "To wielofunkcyjne boisko przeznaczone na cele sportowo-rekreacyjne, dostosowane także do potrzeb osób z niepełnosprawnościami. Gmina Wasilków zmodernizowała obiekt przy Szkole Podstawowej nr 1 im. ks. Wacława Rabczyńskiego.</p><p>Mieszkańcy Wasilkowa będą mogli korzystać z nowego obiektu od początku roku szkolnego 2019/2020. Oprócz modernizacji boiska zainstalowano w tym miejscu także oświetlenie i wykonano kanalizację deszczową. Obiekt zlokalizowany w centrum miasta przyczyni się do poprawy ogólnej estetyki obszaru i aktywizacji mieszkańców.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8157/13027/0x0.jpg",
+        "pictureAlt": "Fragment boiska z bramką oraz koszem do grania w koszykówkę, w tle drzewa i budynki",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/odnowione-boisko-w-wasilkowie.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.20687, 53.19967]
+        }
+};
+var project22 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa efektywności i dostępności do usług medycznych świadczonych w oparciu o pion zabiegowy i OAIIT Szpitala w Hajnówce na potrzeby leczenia schorzeń, które są istotną przyczyną dezaktywacji zawodowej osób dorosłych',
+        "beneficiary": "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Hajnówce",
+        "sphere": "8",
+        "description": "Dzięki wsparciu finansowemu z Regionalnego Programu Operacyjnego zmodernizowano i wyposażono blok operacyjny oddziału anestezjologii i intensywnej terapii oraz pracownię rentgenowską Samodzielnego Publicznego Zakładu Opieki Zdrowotnej w Hajnówce. Dodatkowo przebudowano Szpitalny Oddział Ratunkowy placówki.</p><p>Głównym celem projektu była poprawa jakości, efektywności oraz dostępności do udzielanych świadczeń medycznych w zakresie chirurgii ogólnej, chirurgii urazowo – ortopedycznej, anestezjologii i intensywnej terapii, rehabilitacji pozabiegowej oraz leczenia bólu. Modernizacja obejmowała wykonanie prac budowlanych, zakup aparatury medycznej oraz specjalistycznego wyposażenia.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8526/13482/0x0.jpg",
+        "pictureAlt": "Sala pooperacyjna z aparaturą medyczną",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/szpital-w-hajnowce-zrealizowal-potezne-inwestycje.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.61151, 52.7462]
+        }
+};
+var project23 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Termomodernizacja budynku Szkoły podstawowej z Polskim i Litewskim Językiem Nauczania w Puńsku',
+        "beneficiary": "Gmina Puńsk",
+        "sphere": "5",
+        "description": "Gmina Puńsk przeprowadziła termomodernizację budynku Szkoły podstawowej z Polskim i Litewskim Językiem Nauczania w Puńsku. Dzięki tej inwestycji możliwa będzie oszczędność energii cieplnej i efektywne korzystającej z zasobów. Ściany zewnętrzne szkoły został ocieplone, wstawiono nowe luksfery. System grzewczy budynku został znacznie usprawniony. Zamontowano także instalację fotowoltaiczną o mocy 5kWp. Dzięki realizacji projektu będzie możliwe zmniejszenie emisji gazów cieplarnianych i innych zanieczyszczeń do atmosfery.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8150/13015/0x0.jpg",
+        "pictureAlt": "Widok z zewnątrz na budynek szkoły podstawowej w Puńsku po termomodernizacji",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/termomodernizacje-szkoly-i-swietlicy-srodowiskowej-w-gminie-punsk.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.17969, 54.24849]
+        }
+};
+var project23a = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Termomodernizacja budynku świetlicy środowiskowej w Smolanach',
+        "beneficiary": "Gmina Puńsk",
+        "sphere": "5",
+        "description": "Projekt dotyczy głębokiej termomodernizacji budynku użyteczności publicznej – budynku świetlicy środowiskowej z zespołem kuchennym w Smolanach. Celem projektu jest obniżenie kosztów ogrzewania, co wpłynie niższe koszty funkcjonowania świetlicy. W budynku zmodernizowano system ciepłej wody użytkowej, w tym umieszczono pompy ciepła. Unowocześniono wentylację i system grzewczy.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8150/13016/0x0.jpg",
+        "pictureAlt": "Wejście do świetlicy środowiskowej w Smolanach",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/termomodernizacje-szkoly-i-swietlicy-srodowiskowej-w-gminie-punsk.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.19718, 54.18329]
+        }
+};
+
+
 
 var project100 = {
     "type": "Feature",
