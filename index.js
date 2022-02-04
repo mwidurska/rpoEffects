@@ -109,7 +109,7 @@ function zoomToFeature(e) {
     if (e.target._bounds) {
         map.fitBounds(e.target.getBounds());
     } else {
-        map.setView(e.latlng, 17);
+        map.setView(e.latlng, 16);
     };
     var layer = e.target;
     info.update(layer.feature.properties);
