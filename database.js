@@ -575,6 +575,66 @@ var project23a = {
         "coordinates": [23.19718, 54.18329]
         }
 };
+var project24 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Zastosowanie robota chirurgicznego celem podniesienia jakości i poprawy dostępu do najnowocześniejszych procedur chirurgii onkologicznej w SP ZOZ WSZ im. Jędrzeja Śniadeckiego w Białymstoku',
+        "beneficiary": "Samodzielny Publiczny Zakład Opieki Zdrowotnej Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku",
+        "sphere": "8",
+        "description": "Robot chirurgiczny da Vinci został zaprojektowany w celu ułatwienia prowadzenia skomplikowanych zabiegów chirurgicznych metodą małoinwazyjną. Urządzenie ma zastosowanie w różnych dziedzinach chirurgii, a zwłaszcza w zabiegach ginekologicznych czy urologicznych. Ułatwia lekarzom wykonywanie operacji, w tym zabiegów chirurgicznych, w trudno dostępnych miejscach organizmu. Sam robot nie operuje, gdyż to lekarz steruje narzędziami umieszczonymi w ramionach robota. Lekarz wykorzystuje do tego specjalną konsolę, która stoi obok pacjenta, ale może być ustawiona też gdzieś dalej, np. w innym budynku.</p><p>Po operacji przy użyciu robota pobyt pacjenta w szpitalu skraca się nawet do trzech dni. Odnotowuje się także mniejsze ryzyko powikłań pooperacyjnych. Dzięki temu zabiegi są bezpieczniejsze i bardziej komfortowe dla pacjentów. </p><p>Robot jest wykorzystywany przez oddziały Urologii Onkologicznej i Ogólnej, Chirurgii Ogólnej, Małoinwazyjnej i Onkologicznej oraz Oddział Ginekologiczno-Położniczy w SP ZOZ WSZ im. J. Śniadeckiego w Białymstoku.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7126/11517/0x0.jpg",
+        "pictureAlt": "Robot da Vinci stoi na korytarzu szpitala",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/wysokiej-klasy-robot-chirurgiczny-w-szpitalu-wojewodzkim-w-bialymstoku.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.16332, 53.12548]
+        }
+};
+var project25 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Renowacja podlaskiej perły baroku - zespołu pomisjonarskiego w Tykocinie',
+        "beneficiary": "Parafia Rzymskokatolicka p.w. Trójcy Przenajświętszej w Tykocinie",
+        "sphere": "8",
+        "description": "Kościół pw. Trójcy Przenajświętszej to prawdziwa perła późnobarokowej architektury. We wnętrzu świątyni zachowały się cenne barokowe ołtarze, prospekt organowy, obrazy i częściowo polichromie. Obecnie kościół pełni funkcję ośrodka życia religijnego i jest jednym z bardziej rozpoznawalnych zabytków w województwie podlaskim.</p><p>Projekt zakładał przeprowadzenie prac remontowych i konserwatorskich, które polegały na konserwacji polichromii, ołtarzy i obrazów. We wnętrzu świątyni został wykonany monitoring oraz instalacje (alarmowa i przeciwpożarowa), chroniące obiekt przed różnego rodzaju zagrożeniami. Do tego doszedł monitoring klimatu oraz iluminacja wnętrza kościoła. Również krypta, w której pochowani są darczyńcy parafii, doczekała się odnowienia. Dzięki temu będzie mogła zostać udostępniona zwiedzającym.</p><p>Powstało także muzeum połączone z archiwum parafialnym. Można zobaczyć tu m.in. monstrancje ufundowane przez Jana Klemensa Branickiego czy dawne ornaty. Inwestycja objęła też prace związane z osuszeniem fundamentów. Uporządkowano otoczenie, wokół kościoła powstały np. alejki. Pojawiły się także udogodnienia dla osób z niepełnosprawnościami, poruszających się na wózkach inwalidzkich, niesłyszących i niedowidzących. Ale to nie wszystko. Zabytek doczekał się własnej aplikacji na smartfony, która będzie pełnić funkcję przewodnika po obiekcie.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/6937/11228/0x0.jpg",
+        "pictureAlt": "Wnętrze kościoła w Tykocinie, widok na sklepienie",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/renowacja-podlaskiej-perly-baroku---zespolu-pomisjonarskiego-w-tykocinie.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.77431, 53.2077]
+        }
+};
+var project26 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Innowacyjna technologia produkcji okien Powertherm',
+        "beneficiary": "Witraż Sp. z o.o.",
+        "sphere": "1",
+        "description": "Firma WITRAŻ wprowadziła na rynek innowacyjny produkt - okna Powertherm. Dzięki nowej technologii było możliwe uzyskanie okien o ulepszonych parametrach jakościowych, posiadających znacznie większą wytrzymałość. Okna są bardziej szczelne oraz posiadają estetyczny wygląd. Dzięki realizacji projektu spółka Witraż jako jedyna firma w kraju produkuje okna o tzw. bezwypływkowej spoinie zgrzewu naroża. Firma zmodernizowała linięprodukcyjną, zakupiła maszyny oraz specjalistyczne oprogramowanie do sterowania procesem produkcyjnym.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8067/12963/0x0.jpg",
+        "pictureAlt": "Okna ustawione w stelażach w rzędzie",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/innowacyjna-technologia-produkcji-okien-powertherm-w-spolce-witraz.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.0312, 53.15417]
+        }
+};
+
+
+
+
+
+
+
+
+
 
 
 
