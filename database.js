@@ -626,7 +626,23 @@ var project26 = {
         "coordinates": [23.0312, 53.15417]
         }
 };
+var project27 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Prace konserwatorskie budynków wpisanych do rejestru zabytków – Synagoga i Dom Talmudyczny w Tykocinie',
+        "beneficiary": "Muzeum Podlaskie w Białymstoku",
+        "sphere": "8",
+        "description": "Synagoga i Dom Talmudyczny w Tykocinie zyskały nowe oblicze dzięki rewitalizacji z dotacji RPOWP. W ramach dwuletniej inwestycji, wartej prawie 3 miliony złotych, wykonano remont, który został zakończony w grudniu 2018. Wtedy przystąpiono także do wprowadzania nowych rozwiązań wystawienniczych. W obiektach zastosowano m.in. elementy multimedialne w zakresie prezentowania oferty kulturalnej.</p><p>W trakcie remontu została wymieniona cała stolarka okienna, drzwiowa, zostały położone nowe poszycia dachowe. W budynkach jest także nowa instalacja grzewcza, ponownie zostały zaizolowane nowe fundamenty synagogi.</p><p>Choć remont nie ułatwiał obsługi gości, nie wpłynęło to na spadek frekwencji odwiedzin. W planie rozwoju Muzeum w Tykocinie jest wzbogacenie oferty prezentacji wnętrza obiektów o kolejne środki wizualne. Chodzi między innymi o wystawy mappingowe, czy ekrany parowe.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/6938/11254/0x0.jpg",
+        "pictureAlt": "Wnętrze synagogi w Tykocinie",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/muzeum-w-tykocinie-w-nowej-odslonie.html",
+        },
 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.0312, 53.15417]
+        }
+};
 
 
 
