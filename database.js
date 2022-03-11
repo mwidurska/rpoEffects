@@ -744,9 +744,39 @@ var project32 = {
                 }
 };
 
+var project33 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa stanu zdrowia populacji pracującej województwa podlaskiego',
+        "beneficiary": "Uniwersytet Medyczny w Białymstoku",
+        "sphere": "2",
+        "description": "Zdrowie jest jedną z największych wartości. Będąc zdrowym, łatwiej jest realizować swoje plany zawodowe i rodzinne, spełniać marzenia, odnosić sukcesy, prowadzić udane życie towarzyskie.</p><p>Takie jest główne założenie projektu realizowanego przez Uniwersytet Medyczny w Białymstoku. Projekt dofinansowany z RPOWP dotyczy analizy, a w konsekwencji poprawy stanu zdrowia mieszkańców województwa podlaskiego. Zadanie to polega na zbadaniu stanu zdrowia osób pracujących, w wieku 25-50 lat, zamieszkujących nasze województwo.</p><p>Naukowcy z Uniwersytetu Medycznego w Białymstoku chcą zanalizować czynniki ryzyka chorób cywilizacyjnych, które są głównymi przyczynami zgonów w województwie podlaskim. Celem projektu jest zmiana niewłaściwego stylu życia, a tym samym wyeliminowanie czynników prowadzących do wystąpienia chorób cywilizacyjnych.</p><p>W projekcie przewidziano szkolenia dotyczące profilaktyki chorób, w których wezmą udział pracownicy sektora podstawowej opieki zdrowotnej, inspekcji sanitarnej, jednostek służby medycyny pracy, pracodawców i edukatorów zdrowotnych. Naukowcy w Uniwersytetu chcą ocenić ryzyko zdrowotne, a następnie wprowadzić usługi profilaktycznej w miejscu pracy lub sektorze podstawowej opieki zdrowotnej.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/zdrowie-w-pracy.html",
+        },
 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.15794, 53.12167]
+        }
+};
 
+var project34 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Zagospodarowanie budynku byłej szkoły podstawowej na potrzeby Lipskiego Ośrodka Lokalnej Aktywności',
+        "beneficiary": "Gmina Lipsk",
+        "sphere": "8",
+        "description": "W ramach projektu powstał Lipski Ośrodek Lokalnej Aktywności – LOLA. Odbywają się tu działania edukacyjne, sportowe i kulturalne. Działania te integrują mieszkańców miasta i gminy Lipsk.</p><p>Projekt zrealizowany został przez Gminę Lipsk, we współpracy z partnerem społecznym - Towarzystwem Przyjaciół Lipska. W ramach inwestycji , budynek dawnej szkoły podstawowej w Lipsku został wyremontowany i zaadaptowany. W Ośrodku funkcjonują lokalne stowarzyszenia i organizacje.</p><p>Jest to teraz atrakcyjne miejsce, które umożliwia wszechstronny rozwój lokalnych społeczności. Różnorodna oferta LOLA jest skierowana do szerokiego grona zainteresowanych, bez względu na wiek czy niepełnosprawność. Nieodpłatne usługi stowarzyszeń mają na celu umożliwić wszystkim chętnym skorzystanie z ich oferty.</p><p>Adaptacja budynku na cele społeczności nie tylko w znaczący sposób podniosła bezpieczeństwo całego terenu, ale również przyczyniło się do poprawy ogólnej estetyki obszaru położonego w obrębie zabytkowego układu urbanistycznego miasta wpisanego do rejestru zabytków województwa podlaskiego.",
+	"picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7885/12648/0x0.jpg",
+        "pictureAlt": "Uczestnicy zajęć fitness ćwiczą przed budynkiem centrum.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/lola---lipski-osrodek-lokalnej-aktywnosci.html",
+        },
 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.4037, 53.73062]
+        }
+};
 
 
 
