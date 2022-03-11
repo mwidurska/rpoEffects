@@ -266,6 +266,8 @@ displayProject(project29);
 displayProject(project30);
 displayProject(project31);
 displayProject(project32);
+displayProject(project33);
+displayProject(project34);
 displayProject(project100);
 displayProject(project101);
 displayProject(project102);
