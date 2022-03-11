@@ -644,6 +644,109 @@ var project27 = {
         }
 };
 
+var project28 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Uzbrojenie terenów inwestycyjnych w Łapach',
+        "beneficiary": "Gmina Łapy",
+        "sphere": "1",
+        "description": "Dziesięć nowych działek inwestycyjnych czeka na przedsiębiorców w podstrefie Tarnobrzeskiej Specjalnej Strefy Ekonomicznej w Łapach. Prace związane z uzbrojeniem terenów zakończyły się w maju 2019 r., a 12 lipca 2019 r. odbyło się oficjalne otwarcie inwestycji.</p><p>Projekt polegał na uzbrojeniu i przygotowaniu pod inwestycję terenów poprzemysłowych, stanowiących niegdyś tzw. akumulacyjny zbiornik wodno-ściekowy po dawnej Cukrowni Łapy. Był to obszar przygotowany na przyjmowanie nowych inwestycji typu „brown field”.</p><p>W maju 2019 gmina zakończyła proces uzbrajania terenu i przygotowała dziesięć działek inwestycyjnych o powierzchni ok. 1 ha każda. Zostały one wyposażone w niezbędną infrastrukturę -  m.in. w sieć kanalizacyjną, sanitarną i deszczową,  drogę wewnętrzną wraz z oświetleniem.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rozwoj-terenow-inwestycyjnych-w-lapach.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.871, 52.9776]
+        }
+};
+
+var project29 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Prace B+R nad dwoma systemami alternatywnego zasilania pojazdów samochodowych paliwem LPG w fazie ciekłej',
+        "beneficiary": "DGI Piotr Łapiński z siedzibą w Białymstoku",
+        "sphere": "1",
+        "description": "Firma DGI Piotr Łapiński opracowała dwa systemy zasilania samochodów paliwem LPG, wykorzystujące ideę wtrysku gazu LPG w fazie ciekłej (systemy V i VI generacji).</p><p>Zalety stworzonych instalacji, w porównaniu do istniejących na rynku rozwiązań:<ul><li>pompy paliwa znajdują się poza zbiornikiem gazu, dzięki czemu można zatankować większą ilość paliwa i zwiększa się zasięg pojazdu;</li><li>zastosowanie pomp paliwa na zewnątrz zbiornika umożliwia również zasilanie silników o większej niż dotychczas mocy;</li><li>systemy są kompatybilne ze standardowymi zbiornikami i zaworami, co wpływa na obniżenie kosztu całej instalacji;</li><li>opracowany system VI generacji jest uniwersalny i może być stosowany do każdego typu silników;</li><li>opracowane rozwiązania bazują na autorskim systemie pomp i rozdzielaczy paliwa, co zapobiega przedostawaniu się LPG do zbiornika benzyny i na odwrót. Mieszanie się paliw może utrudnić lub nawet uniemożliwić uruchomienie silnika pojazdu.</li></ul>",
+	"picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7941/12798/0x0.jpg",
+        "pictureAlt": "Zbliżenie na element systemu paliwowego",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/prace-br-w-firmie-dgi-piotr-lapinski.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.16992, 53.15381]
+        }
+};
+
+var project30 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Modernizacja i rozbudowa oczyszczalni ścieków w Rajgrodzie oraz budowa rozdzielczej sieci wodociągowej w Rajgrodzie',
+        "beneficiary": "Gmina Rajgród",
+        "sphere": "6",
+        "description": "W ramach projektu wybudowano komunalną oczyszczalnię ścieków oraz wodociąg o długości 2,26 km. W stosunku do poprzedniej, nowa oczyszczalnia jest w stanie przyjąć podwójną ilość ścieków. Dzięki temu z infrastruktury ściekowej będzie mogło dodatkowo skorzystać prawie 1,3 tys. mieszkańców. Natomiast z zaopatrzenia w wodę skorzysta dodatkowo 345 osób.</p><p>Wybudowana w ramach projektu oczyszczalnia jest nowoczesnym obiektem. Zastosowano w nim technologię, która zwiększa jego odporność na zakłócenia oraz pozwala zmniejszyć wielkość bloku biologicznego. Dodatkowo (choć zgodnie z przepisami nie musi tego robić) oczyszczalnia będzie usuwać związki azotu i fosforu. Co ważne, te dodatkowe funkcje nie spowodowały konieczności powiększenia zbiornika oczyszczalni i nie zwiększyły znacząco kosztów inwestycji.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8240/13109/0x0.jpg",
+        "pictureAlt": "Mężczyzna steruje maszyną w oczyszczalni ścieków",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/modernizacja-i-rozbudowa-oczyszczalni-sciekow-w-rajgrodzie.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.6975, 53.7303]
+        }
+};
+
+var project31 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Poprawa infrastruktury edukacji przedszkolnej w Szkole Podstawowej w Radziłowie.',
+        "beneficiary": "Gmina Radziłów",
+        "sphere": "8",
+        "description": "W szkole podstawowej w Radziłowie dostosowano pomieszczenie na potrzeby przedszkola. Wykonane zostały prace remontowe – ułożono wykładziny, zamontowano urządzenia oświetleniowe i wentylacyjne. Sale wyposażono w nowe i bezpieczne meble. Nauczyciele podczas swojej pracy z podopiecznymi wykorzystywać mogą atrakcyjne narzędzia i pomoce edukacyjne. A wyposażenie dopełnia także nowy sprzęt audiowizualny. Podopieczni przedszkola korzystają z nowych gier i sprzętu do zabaw. Mogą też korzystać z nowo urządzonej szatni.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7906/12652/0x0.jpg",
+        "pictureAlt": "Pomieszczenie przedszkolne, okrągłe stoły z krzesełkami, regały z zabawkami",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/przedszkole-w-szkole-podstawowej-w-radzilowie.html",
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.4217895, 53.4113801]
+        }
+};
+
+var project32 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Rewitalizacja miasteczka ruchu drogowego w Sokółce',
+        "beneficiary": "Gmina Sokółka",
+        "sphere": "8",
+        "description": "Miasteczko ruchu drogowego w Sokółce znajduje się przy ul. Osiedle Zielone. Projekt dofinansowany ze środków UE dotyczył przebudowy i rewitalizacji terenu miasteczka ruchu drogowego, które było w złym stanie technicznym. Zniszczona infrastruktura uniemożliwiała prawidłowe prowadzenie zajęć edukacyjnych i wychowawczych.</p><p>Dzięki realizacji projektu teren miasteczka został uporządkowany. Zastosowano tu możliwie jak największą ilość elementów, z którymi młodzi uczestnicy ruchu drogowego spotkają się na co dzień, korzystając z prawdziwej infrastruktury drogowej np. znaki drogowe, sygnalizacja świetlna. Dodatkowo przestrzeń została zagospodarowana w taki sposób, aby była dostosowana do potrzeb osób z niepełnosprawnościami, osób starszych oraz osób z małymi dziećmi. Są tu ławeczki, stojaki na rowery oraz altany, a ścieżki oświetlone są dzięki wykorzystaniu lamp solarnych.</p><p>Realizacja projektu sprzyja zwiększeniu aktywności społecznej mieszkańców Sokółki oraz poprawie bezpieczeństwa w ruchu drogowym.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/10793/16340/0x0.jpg",
+        "pictureAlt": "Uliczka i znaki drogowe / Street and road signs",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/miasteczko-ruchu-drogowego-w-sokolce.html",
+        },
+
+    "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                    "type": "Point",
+                    "coordinates": [23.10845, 53.13154]
+                    },
+                    {
+                    "type": "Polygon",
+                    "coordinates": [[
+                        [23.1089554, 53.1311350],[23.1081036, 53.1311684],[23.1082147, 53.1314754],[23.1079909, 53.1315057],[23.1082141, 53.1320613],[23.1087392, 53.1319896],[23.1089554, 53.1311350]
+
+                        ]]
+                    },
+                    ]
+                }
+};
+
+
+
+
 
 
 
@@ -690,23 +793,7 @@ var project101 = {
         "coordinates": [22.7153, 53.1203]
         }
 };
-var project102 = {
-    "type": "Feature",
-    "properties": {
-        "title": 'Modernizacja i rozbudowa oczyszczalni ścieków w Rajgrodzie oraz budowa rozdzielczej sieci wodociągowej w Rajgrodzie',
-        "beneficiary": "Gmina Rajgród",
-        "sphere": "6",
-        "description": "W ramach projektu wybudowano komunalną oczyszczalnię ścieków oraz wodociąg o długości 2,26 km. W stosunku do poprzedniej, nowa oczyszczalnia jest w stanie przyjąć podwójną ilość ścieków. Dzięki temu z infrastruktury ściekowej będzie mogło dodatkowo skorzystać prawie 1,3 tys. mieszkańców. Natomiast z zaopatrzenia w wodę skorzysta dodatkowo 345 osób.</p><p>Wybudowana w ramach projektu oczyszczalnia jest nowoczesnym obiektem. Zastosowano w nim technologię, która zwiększa jego odporność na zakłócenia oraz pozwala zmniejszyć wielkość bloku biologicznego. Dodatkowo (choć zgodnie z przepisami nie musi tego robić) oczyszczalnia będzie usuwać związki azotu i fosforu. Co ważne, te dodatkowe funkcje nie spowodowały konieczności powiększenia zbiornika oczyszczalni i nie zwiększyły znacząco kosztów inwestycji.",
-        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8240/13109/0x0.jpg",
-        "pictureAlt": "Mężczyzna steruje maszyną w oczyszczalni ścieków",
-        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/modernizacja-i-rozbudowa-oczyszczalni-sciekow-w-rajgrodzie.html",
-        },
 
-    "geometry": {
-        "type": "Point",
-        "coordinates": [22.6975, 53.7303]
-        }
-};
 var project103 = {
     "type": "Feature",
     "properties": {
