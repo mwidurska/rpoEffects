@@ -11,11 +11,20 @@ if (number>95) {
   link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
   value.innerHTML="5 445 398,88 zł";
 } else if (number>90){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16273/0x0.jpg" // Kopernik
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16273/0x0.jpg"; // Kopernik
+  link.innerHTML="Wystawa w budynku Starej Łaźni / Exhibition in the building of the Old Bathhouse";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
+  value.innerHTML="5 445 398,88 zł";
 } else if (number>85){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7635/12326/0x0.jpg" // Korycin
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7635/12326/0x0.jpg"; // Korycin
+  link.innerHTML="Wystawa w budynku Starej Łaźni / Exhibition in the building of the Old Bathhouse";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
+  value.innerHTML="5 445 398,88 zł";
 } else if (number>80){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8761/13797/0x0.jpg"  //tartak
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8761/13797/0x0.jpg";  //tartak
+  link.innerHTML="Wystawa w budynku Starej Łaźni / Exhibition in the building of the Old Bathhouse";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
+  value.innerHTML="5 445 398,88 zł";
 } else if (number>75){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7367/11916/0x0.jpg"  //okna atlant
 } else if (number>70){
