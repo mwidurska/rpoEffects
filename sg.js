@@ -1,62 +1,91 @@
-const number = Math.ceil(100*Math.random());
+const number = Math.ceil(19*Math.random());
 console.log(number);
 
 const picture = document.getElementById('sg-pic');
+const description = document.getElementById('sg-desc');
 const link = document.getElementById('sg-link');
 const value = document.getElementById('sg-value');
 
-if (number>95) {
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10794/16347/0x0.jpg"; //suwałki
-  link.alt="Wystawa w budynku Starej Łaźni / Exhibition in the building of the Old Bathhouse";
-  link.innerHTML="Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach";
-  link.a.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
-  value.innerHTML="5 445 398,88 zł";
-} else if (number>90){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16273/0x0.jpg"; // Kopernik
-  link.alt="Wystawa w budynku Starej Łaźni / Exhibition in the building of the Old Bathhouse";
-  link.innerHTML="Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach";
+if (number=19) {
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10794/16347/0x0.jpg";
+  picture.alt="Wystawa w budynku Starej Łaźni";
+  desc.innerHTML="Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach";
   link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
   value.innerHTML="5 445 398,88 zł";
-} else if (number>85){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7635/12326/0x0.jpg"; // Korycin
-  link.alt="Wystawa w budynku Starej Łaźni / Exhibition in the building of the Old Bathhouse";
-  link.innerHTML="Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach";
-  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
-  value.innerHTML="5 445 398,88 zł";
-} else if (number>80){
+} else if (number=18){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10768/16273/0x0.jpg";
+  picture.alt="Kolorowe i atrakcyjne stanowiska do nauki poprzez zabawę";
+  desc.innerHTML="Epi-Centrum Nauki";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/laboratorium-mlodego-mistrza-i-odkrywcy-w-bialymstoku.html";
+  value.innerHTML="17 444 844,44 zł";
+} else if (number=17){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7635/12326/0x0.jpg";
+  picture.alt="Wystawa archeologiczna w przeszklonym pawilonie";
+  desc.innerHTML="Park kulturowy Korycin - Milewszczyzna";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/park-kulturowy-korycin---milewszczyzna.html";
+  value.innerHTML="4 613 958,10 zł";
+} else if (number=16){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8761/13797/0x0.jpg";  //tartak
-  link.alt="Wystawa w budynku Starej Łaźni / Exhibition in the building of the Old Bathhouse";
-  link.innerHTML="Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach";
-  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-starej-lazni-w-suwalkach.html";
-  value.innerHTML="5 445 398,88 zł";
-} else if (number>75){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7367/11916/0x0.jpg"  //okna atlant
-} else if (number>70){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10797/16367/0x0.jpg"  //zalew w sokółce
-} else if (number>65){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10787/16295/0x0.jpg"  //bdk
-} else if (number>60){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10791/16322/0x0.jpg"  //bulwary w choroszczy
-} else if (number>55){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7199/11933/0x0.jpg" // PMKL
-} else if (number>50){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10792/16331/0x0.jpg" // domek qpro
-} else if (number>45){
-  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg" // marand
-} else if (number>40){
+  picture.alt="Maszyna do pracy w tartaku";
+  desc.innerHTML="Rozwój przedsiębiorstwa Tartak Kołodno";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rozwoj-przedsiebiorstwa-tartak-kolodno.html";
+  value.innerHTML="538 080,00 zł";
+} else if (number=15){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7367/11916/0x0.jpg";  //okna atlant
+  picture.alt="Szyby w zakładzie produkującym okna.";
+  desc.innerHTML="Okna na zdrowie firmy ATLANT";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/okna-na-zdrowie-firmy-atlant.html";
+  value.innerHTML="950 932,80 zł";
+} else if (number=14){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10797/16367/0x0.jpg";  //zalew w sokółce
+  picture.alt="Drewniany pomost nad zalewem";
+  desc.innerHTML="Modernizacja terenu nad zalewem w Sokółce";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/modernizacja-terenu-nad-zalewem-w-sokolce.html";
+  value.innerHTML="3 083 112,29 zł";
+} else if (number=13){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10787/16295/0x0.jpg";  //bdk
+  picture.alt="Zbliżenie na przeszklone poręcze na piętrach budynku";
+  desc.innerHTML="Rewitalizacja Bielskiego Domu Kultury";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/rewitalizacja-bielskiego-domu-kultury.html";
+  value.innerHTML="5 837 166,31 zł";
+} else if (number=12){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10791/16322/0x0.jpg";  //bulwary w choroszczy
+  picture.alt="Tężnia solankowa";
+  desc.innerHTML="Budowa bulwarów choroszczańskich";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/budowa-bulwarow-choroszczanskich.html";
+  value.innerHTML="1 520 435,53 zł";
+} else if (number=11){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7199/11933/0x0.jpg"; // PMKL
+  picture.alt="Wystawa sztuki ludowe wewnątrz dworu – ceramika, sztuka drewniana";
+  desc.innerHTML="Remont drewnianego dworu z Bobry Wielkiej";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/remont-drewnianego-dworu-z-bobry-wielkiej.html";
+  value.innerHTML="1 201 299,85 zł";
+} else if (number=10){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/10792/16331/0x0.jpg"; // domek qpro
+  picture.alt="Domek noclegowy - widok z zewnątrz";
+  desc.innerHTML="Domek letniskowy nad jeziorem Serwy";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/domek-letniskowy-nad-jeziorem-serwy.html";
+  value.innerHTML="362 524,54 zł";
+} else if (number=9){
+  picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8673/13703/0x0.jpg"; // marand
+  picture.alt="Zbliżenie na panele fotowoltaiczne";
+  desc.innerHTML="Elektrownia fotowoltaiczna MARAND-KOBYLIN";
+  link.href="https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/elektrownia-fotowoltaiczna-marand-kobylin.html";
+  value.innerHTML="647 752,50 zł";
+} else if (number=8){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11679/17383/0x0.jpg"  // sokolka-dabrowa
-} else if (number>35){
+} else if (number=7){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11013/16625/0x0.jpg"  // czapielowka
-} else if (number>30){
+} else if (number=6){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11205/16852/0x0.jpg"  // covid
-} else if (number>25){
+} else if (number=5){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8679/13713/0x0.jpg"  // hajnowka od nowa
-} else if (number>20){
+} else if (number=4){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8688/17024/0x0.jpg"  // eurowash
-} else if (number>15){
+} else if (number=3){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8227/13099/0x0.jpg" // kulesze koscielne
-} else if (number>10){
+} else if (number=2){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/8526/13482/0x0.jpg"  // szpital w hajnowce
-} else if (number>5){
+} else if (number=1){
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/7230/11694/0x0.jpg" // iwet
 } else picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11110/16740/0x0.jpg"; //łomża centrum przesiadkowe
