@@ -1,4 +1,4 @@
-const number = Math.ceil(19*Math.random());
+const number = Math.ceil(22*Math.random());
 console.log(number);
 
 const picture = document.getElementById('sg-pic');
