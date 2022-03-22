@@ -6,7 +6,7 @@ const description = document.getElementById('sg-desc');
 const link = document.getElementById('sg-link');
 const value = document.getElementById('sg-value');
 
-if (number=22) {
+if (number>21) {
   picture.src="https://rpo.wrotapodlasia.pl/resource/image/236/333/11980/17894/0x0.jpg";
   picture.alt="Wystawa w budynku Starej Łaźni";
   desc.innerHTML="Rewitalizacja starej łaźni oraz bulwarów nad rzeką Czarna Hańcza w Suwałkach";
