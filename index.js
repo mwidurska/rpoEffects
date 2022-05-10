@@ -92,15 +92,15 @@ var RevIcon = L.Icon.extend({
     }
 });
 
-var icon1 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17503/0x0.png' }),
-    icon2 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17502/0x0.png' }),
-    icon3 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17504/0x0.png' }),
-    icon4 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17505/0x0.png' }),
-    icon5 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17506/0x0.png' });
-    icon6 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17507/0x0.png' });
-    icon7 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17508/0x0.png' });
-    icon8 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17509/0x0.png' });
-    icon9 = new RevIcon({ iconUrl: 'https://rpo.wrotapodlasia.pl/resource/image/236/333/11770/17510/0x0.png' });
+var icon1 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/1.svg' }),
+    icon2 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/2.svg' }),
+    icon3 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/3.svg' }),
+    icon4 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/4.svg' }),
+    icon5 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/5.svg' });
+    icon6 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/6.svg' });
+    icon7 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/7.svg' });
+    icon8 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/8.svg' });
+    icon9 = new RevIcon({ iconUrl: 'https://cdn.jsdelivr.net/gh/mwidurska/rpoEffects@main/9.svg' });
 
     
 
