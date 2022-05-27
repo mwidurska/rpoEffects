@@ -129,10 +129,6 @@ var project5 = {
                     },
 			{
                     "type": "Point",
-                    "coordinates": [23.20337, 53.75942]
-                    },
-			{
-                    "type": "Point",
                     "coordinates": [22.06666, 53.15713]
                     },
 			{
@@ -162,7 +158,7 @@ var project6 = {
 
     "geometry": {
         "type": "Point",
-        "coordinates": [23.1249804, 53.2755099]
+        "coordinates": [23.2755099, 53.1249804]
         }
 };
 var project7 = {
@@ -428,7 +424,7 @@ var project17 = {
 
     "geometry": {
         "type": "Point",
-        "coordinates": [22.0482, 53.1279]
+        "coordinates": [23.5894431, 52.7374633]
         }
 };
 var project18 = {
@@ -538,7 +534,7 @@ var project22 = {
 
     "geometry": {
         "type": "Point",
-        "coordinates": [23.61151, 52.7462]
+        "coordinates": [23.61141, 52.74612
         }
 };
 var project23 = {
@@ -640,7 +636,7 @@ var project27 = {
 
     "geometry": {
         "type": "Point",
-        "coordinates": [23.0312, 53.15417]
+        "coordinates": [22.76722, 53.20671]
         }
 };
 
@@ -692,7 +688,7 @@ var project30 = {
 
     "geometry": {
         "type": "Point",
-        "coordinates": [22.6975, 53.7303]
+        "coordinates": [22.69042, 53.72945]
         }
 };
 
