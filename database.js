@@ -534,7 +534,7 @@ var project22 = {
 
     "geometry": {
         "type": "Point",
-        "coordinates": [23.61141, 52.74612
+        "coordinates": [23.61141, 52.74612]
         }
 };
 var project23 = {
