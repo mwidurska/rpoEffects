@@ -761,8 +761,51 @@ var project34 = {
         }
 };
 
+var project35 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Centrum Badawczo-Rozwojowe – Misja White Hill– Podlaska Strategia sukcesu B+R+I w mechanizacji rolnictwa',
+        "beneficiary": "White Hill",
+        "sphere": "1",
+        "description": "Celem projektu była budowa Centrum Badawczo-Rozwojowego oraz prowadzenie w nim prac badawczych nad zastosowaniem rozwiązań z dziedziny automatyki i robotyki w rolnictwie. Efektem ma być tworzenie zaawansowanych urządzeń do nadzoru nad produkcją szklarniową roślin np. warzyw, winorośli. </p><p>Projekt wyróżnia misja przedsiębiorstwa, którą jest stworzenie na Podlasiu Doliny Rolniczej 4.0, tj. rozwój technologiczny i gospodarczy województwa w oparciu o inteligentny przemysł rolniczy.",
+	"picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7876/12601/0x0.jpg",
+        "pictureAlt": "Budynek centrum badawczp-rozwojowego",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/misja-white-hill.html",
+        },
 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.21243, 53.12564]
+        }
+};
+var project36 = {
+    "type": "Feature",
+    "properties": {
+        "title": 'Rozbudowa Podlaskiego Muzeum Kultury Ludowej w celu zachowania dziedzictwa kulturowego – podniesienia atrakcji turystycznej regionu',
+        "beneficiary": "Podlaskie Muzeum Kultury Ludowej",
+        "sphere": "8",
+        "description": "Najważniejszą częścią projektu było przeniesienie i remont budynku szkoły ze wsi Kalinowo-Solki. Parter szkoły stanowią cztery przestronne pomieszczenia. Dwa z nich przeznaczono na przestrzeń wystawienniczą. Aktualnie można tam oglądać wystawę pokazującą wystrój wiejskiej szkoły w czasach PRL-u.</p><p>Wśród eksponatów można zobaczyć m.in. ławki z otworami na kałamarze, drewniane liczydła i piórniki czy pomoce naukowe. Druga część wystawy poświęcona jest historii szkoły w Kalinowie Solkach, która została zbudowana przez nauczycieli i rodziców uczniów. Szkoła działała przez prawie 50 lat, o czym świadczą przekazane przez mieszkańców gminy stare dzienniki, zeszyty, świadectwa i fotografie. Pozostałe dwa pomieszczenia zostaną wykorzystane do prowadzenia lekcji muzealnych i warsztatów, opowiadających o podlaskich tradycjach i zwyczajach.</p><p>Ponadto w ramach projektu wymieniono cztery dachy na zabytkowych drewnianych budynkach, oraz przeniesiono do skansenu dwie zabytkowe stodoły. Stodoła pochodząca z Redut w gminie Orla ma prawie 150 lat. Zostanie przeznaczona na stałą wystawę, prezentującą wnętrze budynku gospodarskiego z początku XX wieku. Wypełnią ją narzędzia i maszyny rolnicze – niektóre z nich będzie można uruchomić.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/7202/11889/0x0.jpg",
+        "pictureAlt": "Wnętrze przeniesionej szkoły z Kalinowa, widok na salę szkolną wraz z eksponatami: ławkami, tablicą, książkami.",
+        "link": "https://rpo.wrotapodlasia.pl/pl/dowiedz_sie_wiecej_o_programie/poznaj_projekty/drugie-zycie-szkoly-z-kalinowa-w-podlaskim-muzeum-kultury-ludowej.html",
+        },
 
+    "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                    "type": "Point",
+                    "coordinates": [23,14907, 53.17522]
+                    },
+                    {
+                    "type": "Polygon",
+                    "coordinates": [[
+                        [23.1488049, 53.1760001], [23.1486022, 53.1750847], [23.1485278, 53.1746931], [23.1495812, 53.1745759], [23.1497393, 53.1752287], [23.1492686, 53.1753209], [23.1493145, 53.1756754], [23.1488049, 53.1760001]
+                        ]]
+                    },
+                    ]
+                }
+};
 
 
 
@@ -824,3 +867,4 @@ var project103 = {
         "coordinates": [23.12032, 53.12304]
         }
 };
+
