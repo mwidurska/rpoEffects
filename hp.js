@@ -1,5 +1,5 @@
 const number = Math.ceil(23*Math.random());
-console.log(number);
+//console.log(number);
 
 const picture = document.getElementById('sg-pic');
 const desc = document.getElementById('sg-desc');
